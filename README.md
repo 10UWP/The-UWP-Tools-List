@@ -1,5 +1,12 @@
 # The-UWP-Tools-List
-An extensive list of potentially useful UWP Tools, Libraries, Samples etc to help make your UWP development more awesome. The list is non-curated (but with opininated comments when available). The ultimate objective is to provide a broad starting point for UWP development to perhaps help to offset the currently chaotic and sporadic information that is generally available.
+
+UWP - Universal Windows Platform for Windows 10 Desktop, Windows 10 Tablets, Windows 10 Mobile Phones, Windows 10 Pixelsense, Windows 10 IOT, Windows Server, Windows 10 HoloLens, and Windows 10 Xbox.
+
+Some of the PCL based libraries also work with Android and Apple IOS via Xamarin. PCL targeted at .NET 3 also work with Unity 3D as another way of targeting Android and IOS. This List is currently focused on Windows 10 devices but I'll try to call out other targets.
+
+On a Windows 10 Desktop or Tablet, a UWP App is typically deployed to a safe sandboxed environment via the Windows Store but the App can also be easily sideloaded to access legacy Windows 10 Desktop features and services with the ![BCTemplates](https://github.com/lancecontreras/BCTemplates)  project being an example of one approach.
+
+This is extensive list (in progress) of potentially useful UWP Tools, Libraries, Samples etc to help make your UWP development more awesome. The list is non-curated (but with opininated comments when available). The ultimate objective is to provide a broad starting point for UWP development to perhaps help to offset the currently chaotic and sporadic information that is generally available.
 
 All contributions are welcome. No guidlines other than Title, Link, Description. Adding an GitHub Issue might be your least effort way to add something here. I'll even try to insert any comments you might have to make this document a bit more interesting to read over and above a rather dry list of projects.
 
@@ -21,7 +28,7 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability. http://caliburnmicro.com/
 
-
+![Okra App Framework](https://github.com/OkraFramework/Okra.Core) The Okra App Framework is designed to support the development of .Net Windows Store applications, in particular those following the MVVM pattern. http://okraframework.github.io
 
 # Data
 
@@ -90,11 +97,20 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![WinCompositionTiltEffect](https://github.com/r2d2rigo/WinCompositionTiltEffect) A behavior for adding a tilt effect to any UWP control, implemented using Windows Composition.
 
+![UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
+
 ![CompositionHelper](https://github.com/higankanshi/CompositionHelper)
 
 ![CompositionAPI](https://github.com/agangal/CompositionAPI)
 
 # Controls
+
+![Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
+
+![UWP-Radial-Gauge-Sample](https://github.com/XamlBrewer/UWP-Radial-Gauge-Sample) Demonstrates using the WinRT XAML Toolkit Radial Gauge on the Universal Windows Platform
+
+![RadialSlider](https://github.com/galazzo/RadialSlider) A radial Slider for Windows 10 Universal Windows Platform (UWP)
+
 ![SplitViewMenuUWP](https://github.com/deanchalk/SplitViewMenuUWP) A custom control for a split view (hamburger) left menu for windows 10 univeral apps
 
 ![UWP-UniformGrid-Control](https://github.com/rickapps/UWP-UniformGrid-Control) The missing UniformGrid control from WPF ported to UWP
@@ -115,6 +131,13 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![Coding4FunToolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit) This is where Coding4Fun will house all our cool controls and tools that we come up with
 
+![UwpProjects](https://github.com/LanceMcCarthy/UwpProjects) A set of UWP controls and utilities. 
+    BusyIndicators in UwpHelpers.Controls.BusyIndicators (cool custom busy indicator)
+    AdaptiveGridView in UwpHelpers.Controls.ListControls (maintains aspect ratio of items as it scales for column width)
+    BlurElementAsync in UwpHelpers.Examples.Helpers (converts any UIElement into a blurred BitmapImage)
+    IncrementalLoadingCollection in UwpHelpers.Controls.Common (demo in Examples)
+    NetworkImage in UwpHelpers.Controls.ImageControls (an Image control that shows download progress)
+
 
 # UI
 ![ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
@@ -123,9 +146,15 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![BlendrocksToolkit](https://github.com/deanihansen/BlendrocksToolkit) Windows UWP toolkit that which enabled insanely cool page transitions and easier navigation and app handling.
 
+![Monolith](https://github.com/ThatLousyGuy/Monolith) Monolith is a Windows library that lets you create animations in codebehind in a fluent, somewhat straightforward manner. It's a wrapper around the Windows.UI.Xaml.Media.Animation library that removes as much of the setup as possible. (Thanks to ![Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) for the head's up on this interesting project.
+
+![WindowsStateTriggers](https://github.com/dotMorten/WindowsStateTriggers) A collection of custom visual state triggers
 
 
 # Libs
+
+![Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the ![Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
+
 ![YAWL.Composition](https://github.com/YAWL/YAWL.Composition) Composable building blocks for MVVM based Windows 10 applications
 
 ![observable-vector](https://github.com/jamesqo/observable-vector) A no-frills implementation of IObservableVector for Windows 10 apps.
@@ -150,14 +179,16 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![Windows-task-snippets](https://github.com/Microsoft/Windows-task-snippets) This repo collects snippets of ready-to-use code that accomplish small but useful tasks of interest to Universal Windows Platform (UWP) app developers. These snippets represent simple solutions to common problems, and simple recipes to help you implement new app features. 
 
-
+![UWP-Networking-Essentials](https://github.com/SvenEV/UWP-Networking-Essentials) Simple and lightweight networking (including RPC) for Universal Windows Platform apps
 
 # Graphics 2D
 ![Win2D](https://github.com/Microsoft/Win2D) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow. http://microsoft.github.io/Win2D (https://github.com/Microsoft/Win2D-Samples)
 
+![SvgForXaml](https://github.com/mntone/SvgForXaml) Draw image from svg file with Win2D
 
+![XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif) A simple library to display animated GIF images in XAML apps (WPF, WinRT, Windows Phone)
 
-
+![WriteableBitmapEx](https://github.com/teichgraf/WriteableBitmapEx) The WriteableBitmapEx library is a collection of extension methods for the WriteableBitmap. The WriteableBitmap class is available for all XAML flavors including Windows Phone, WPF, WinRT Windows Store XAML, (Windows 10) UWP and Silverlight. It was even ported to Windows Embedded. WriteableBitmapEx allows the direct manipulation of a bitmap and can be used for image manipulation, to generate fast procedural images by drawing directly to a bitmap and more. The WriteableBitmap API is very minimalistic and there's only the raw Pixels array for such operations. The WriteableBitmapEx library tries to compensate that with extensions methods that are easy to use like built in methods and offer GDI+ like functionality. The library extends the WriteableBitmap class with elementary and fast (2D drawing) functionality, conversion methods and functions to combine (blit) WriteableBitmaps. The extension methods are grouped into different C# files using a partial class approach. It is possible to include just a few methods by using the specific source code files directly or the full functionality via the built binaries. 
 
 # Graphics 3D
 ![SharpDX](https://github.com/sharpdx/SharpDX)
