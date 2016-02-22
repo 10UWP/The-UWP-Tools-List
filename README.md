@@ -1,5 +1,7 @@
 # The-UWP-Tools-List
-An extensive list of potentially useful UWP Tools, Libraries, Samples etc to help make your UWP development more awesome. The list is non-curated with opininated comments when available.
+An extensive list of potentially useful UWP Tools, Libraries, Samples etc to help make your UWP development more awesome. The list is non-curated (but with opininated comments when available). The ultimate objective is to provide a broad starting point for UWP development to perhaps help to offset the currently chaotic and sporadic information that is generally available.
+
+All contributions are welcome. No guidlines other than Title, Link, Description. Adding an GitHub Issue might be your least effort way to add something here. I'll even try to insert any comments you might have to make this document a bit more interesting to read over and above a rather dry list of projects.
 
 
 
@@ -15,13 +17,23 @@ An extensive list of potentially useful UWP Tools, Libraries, Samples etc to hel
 
 ![mvvmlight](https://github.com/timdetering/mvvmlight) Git mirror of GalaSoft MVVM Light Toolkit (https://mvvmlight.codeplex.com/)
 
+![Prism](https://github.com/PrismLibrary/Prism) Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
+
+![Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability. http://caliburnmicro.com/
+
 
 
 # Data
 
-![EntityFramework](https://github.com/aspnet/EntityFramework) Microsoft's recommended data access technology for new applications in .NET. Opinionated Note: "Microsoft's recommended data access technology" should not be reporting to ASP.NET which leads to the brain damaged situation of SQLite being the ONLY supported target for Microsoft's main thing, the Universal Windows Platform. The insanely stupid SQLite FK mess means that Entity Framework's Magic Unicorn (Migrations) becomes a useless broken technology on the One Microsoft platform that should count as the highest priority effort. UWP without an easy robust Microsoft supported data platform is a Microsoft blind spot that has been a drag on the success of the Win RT platform from the beginning.  
+![EntityFramework](https://github.com/aspnet/EntityFramework) Microsoft's recommended data access technology for new applications in .NET. The ONLY UWP option is SQLite and ![it is a mess](http://ef.readthedocs.org/en/latest/providers/sqlite/limitations.html). (Opinionated Note: "Microsoft's recommended data access technology" should not be reporting to ASP.NET which leads to the brain damaged situation of SQLite being the ONLY supported target for Microsoft's main thing, the Universal Windows Platform. The insanely stupid SQLite FK mess means that Entity Framework's Magic Unicorn (Migrations) becomes a useless broken technology on the One Microsoft platform that should count as the highest priority effort. UWP without an easy robust Microsoft supported data platform is a Microsoft blind spot that has been a drag on the success of the Win RT platform from the beginning. Or maybe I'm wrong and after 3 years of thinking, Microsoft re-defines easy and robust as "You can workaround some of these limitations by manually writing code in your migrations to perform a table rebuild. A table rebuild involves renaming the existing table, creating a new table, copying data to the new table, and dropping the old table. You will need to use the Sql(string) method to perform some of these steps." (https://github.com/aspnet/EntityFramework/issues/329) Or maybe you could help these "Lost Boys" with an ![ESENT database provider](https://github.com/aspnet/EntityFramework/issues/4423))  ![Getting Started on Universal Windows Platform](http://ef.readthedocs.org/en/latest/platforms/uwp/getting-started.html)
+
+![ESENT](https://msdn.microsoft.com/EN-US/library/gg269181%28v=exchg.10%29.aspx) Extensible Storage Engine is built into and is available for use on every Windows computer and has been an approved DLL for Windows Store since Windows 8.0. Updates to the database are implemented with a transaction in order to ensure secure operations. ESE enables simultaneous access to multiple databases, including transaction-log file databases that can be used for system recovery. ESE is scalable to large or small applications. ![ESENT Managed Interop](https://managedesent.codeplex.com/) it is not clear if the .NET wrapper is UWP compatible.
 
 ![BrightstarDB](https://github.com/BrightstarDB/BrightstarDB) BrightstarDB is a native .NET RDF triple store. It uses dotNetRDF to provide support for a wide range of RDF syntaxes as well as SPARQL query support. In addition to providing a raw RDF-based API, BrightstarDB also provides support for binding RDF resources to .NET dynamic objects; and a contract-first entity framework that enables the use of LINQ rather than SPARQL for query purposes.
+
+![SQLite](http://www.sqlite.org/) SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain. Microsoft uses SQLite as a core component of Windows 10, and in individual numerous products. ![System.Data.SQLite](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki) System.Data.SQLite is an ADO.NET provider for SQLite.  Development and maintenance work is now mostly performed by the SQLite Development Team. The SQLite team is committed to supporting System.Data.SQLite long-term. ![git mirror of SQLite](https://github.com/mackyle/sqlite) - ![DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "Database Browser for SQLite". Website at: http://sqlitebrowser.org
+
+![sqlite-net](https://github.com/praeclarum/sqlite-net) sqlite-net is an open source, minimal library to allow .NET and Mono applications to store data in SQLite 3 databases. It is written in C# and is meant to be simply compiled in with your projects. It was first designed to work with MonoTouch on the iPhone, but has grown up to work on all the platforms (Mono for Android, .NET, Silverlight, WP7, WinRT, Azure, etc.). Very simple methods for executing CRUD operations and queries safely (using parameters) and for retrieving the results of those query in a strongly typed fashion. Works with your data model without forcing you to change your classes. (Contains a small reflection-driven ORM layer.)
 
 ![YAWL.Serialization](https://github.com/YAWL/YAWL.Serialization) Serialization helper library for Windows applications
 
@@ -37,7 +49,27 @@ An extensive list of potentially useful UWP Tools, Libraries, Samples etc to hel
 
 ![2016MVA-Template10](https://github.com/Windows-XAML/2016MVA-Template10)
 
+![HamburgerTemplateUWP](https://github.com/StefanJanssen95/HamburgerTemplateUWP) A Hamburger Template for Visual Studio 2015 UWP
 
+![UWP-Attached-ViewModel-Behavior-Template](https://github.com/espenrl/UWP-Attached-ViewModel-Behavior-Template)
+
+![BCTemplates](https://github.com/lancecontreras/BCTemplates) Brokered Component Templates for UWP. These template includes client, server and proxy project and a starterkit which is a solution that contains those three projects. These are the basic projects needed to create a brokered component application. 
+
+
+![WAT-UWP](https://github.com/sozercan/WAT-UWP) Web App Template (WAT) is Visual Studio 2015 project that lets developers create Universal Windows Platform (UWP) apps based on existing web content. Used in the right way, WAT can facilitate the creation of compelling extensions to your web content for Windows users.
+
+![UWPNavBasics](https://github.com/kbfoot/UWPNavBasics) A replication of the Windows navigation sample for UWP with some tweaks to create a basic template
+
+![UWPAppSkeleton](https://github.com/dkackman/UWPAppSkeleton) Project Template for an MMVM Light universal app that will create the skeleton of an app that looks and feels a lot like the built in Microsoft Windows 10 app (Weather, NFL etc). It's got all the basic stuff plumbed out like navigation and a navigation control, a settings page, Theme switch etc.
+
+![UWPProjectTemplates](https://github.com/mspviraj/UWPProjectTemplates) Visual Studio 2015 Project Templates for Universal Windows Platform - UWPSimpleTemplate - bare bones MVVM support, UWPShellTemplate - provides a Hamburger navigation type AppShell with 4 different types of sample Views, PrismSimpleTemplate - bare bones using Prism 6 for UWP, PrismShellTemplate - same as UWPShellTemplate but using Prism 6 for UWP
+
+
+![UWPTemplate](https://github.com/pablovargan/UWPTemplate)
+
+![UWP_Application_Template](https://github.com/programmersommer/UWP_Application_Template) UWP template with pin/unpin secondary tile, share contract, rate and review and toast function
+
+![UWP10template](https://github.com/mapaux/UWP10template) UWP template using MVVM pattern
 
 # Composition
 ![Windows.UI.Composition WinRT API](https://github.com/Microsoft/composition) We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 1511 the Windows.UI.Composition API is now fully public. Many thanks to all of those who contibuted feedback to on the API during it's preview phase to make it that much better. This repository contains code samples created with the Windows.UI.Composition WinRT API. Samples contained in this repository created by the Microsoft Composition team or contributors
@@ -139,6 +171,38 @@ An extensive list of potentially useful UWP Tools, Libraries, Samples etc to hel
 ![DXUT](https://github.com/Microsoft/DXUT) DXUT is a "GLUT"-like framework for Direct3D 11.x Win32 desktop applications; primarily samples, demos, and prototypes. http://blogs.msdn.com/b/chuckw/archive/2013/09/16/dxut-for-win32-desktop-update.aspx
 
 ![FX11](https://github.com/Microsoft/FX11) Effects for Direct3D 11 (FX11) is a management runtime for authoring HLSL shaders, render state, and runtime variables together. http://blogs.msdn.com/b/chuckw/archive/2012/10/23/effects-for-direct3d-11-update.aspx
+
+
+![UVAtlas](https://github.com/Microsoft/UVAtlas) UVAtlas isochart texture atlas http://blogs.msdn.com/b/chuckw/archive/2014/11/14/uvatlas-return-of-the-isochart.aspx
+
+![DirectXMesh](https://github.com/Microsoft/DirectXMesh) DirectXMesh geometry processing library http://blogs.msdn.com/b/chuckw/archive/2014/06/27/directxmesh.aspx performing various geometry
+content processing operations including generating normals and tangent frames, triangle
+adjacency computations, and vertex cache optimization.
+
+
+# Language
+
+![The Visual F# compiler and tools](https://github.com/Microsoft/visualfsharp) F# is a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable, and robust code. F# is used in a wide range of application areas and is supported by Microsoft and other industry-leading companies providing professional tools, and by an active open community. You can find out more about F# at http://fsharp.org.
+
+# Testing
+
+Opinionated Note: Testing is valuable but Unit Testing is a social meme associated with the always hard to pin down Agile movement but despite my dislike of meme-driven-development, I'll include UWP focused Unit Testing since you need to jump thru extra hoops on top of the already rediculous monkey hoops and various perversions of Object Design in order to make your CI robot lamp glow green on UWP...
+
+![myweather](https://github.com/fernandoescolar/myweather) This is a demo of unit testing in UWP. It contains a T4 template to generate all the Spies, Stubs and Mocks of all the interfdaces found in your solution.
+
+![xUnit.net](https://github.com/xunit/xunit) xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework. Written by the original inventor of NUnit v2, xUnit.net is the latest technology for unit testing C#, F#, VB.NET and other .NET languages. xUnit.net works with ReSharper, CodeRush, TestDriven.NET and Xamarin. It is part of the ASP.NET Open Source Gallery under the Outercurve Foundation, licensed under Apache 2 (an OSI approved license). ![Getting Started with xUnit.net (Universal Windows Apps)](http://xunit.github.io/docs/getting-started-uwp.html)
+
+![xunit-performance](https://github.com/Microsoft/xunit-performance) Provides extensions over xUnit to author performance tests.
+
+![FluentAssertions](https://github.com/dennisdoomen/FluentAssertions) Fluent Assertions is a set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test. We currently use it in all our internal and client projects, and it is used in many open-source projects. It runs on .NET 4.0, 4.5, 4.6, CoreClr, .NET Native, Windows 8.1, Silverlight 5, Windows Phone 8.0… http://www.fluentassertions.com
+
+![FluentAssertionsEx](https://github.com/hivepeople/FluentAssertionsEx) Extensions for FluentAssertions.
+
+![FluentAssertions.Autofac](https://github.com/awesome-inc/FluentAssertions.Autofac) Fluent Assertions extensions for Autofac
+
+![Shouldly](https://github.com/shouldly/shouldly) Should testing for .net - the way Asserting *Should* be! http://shouldly.readthedocs.org/en/latest
+
+
 
 
 # Samples
