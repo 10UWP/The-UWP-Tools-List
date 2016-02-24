@@ -115,6 +115,9 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![RichTextBlock.Html2Xaml](https://github.com/MacawNL/WinRT-RichTextBlock.Html2Xaml) The WinRT RichTextBlock control serves to display read-only rich formatted text. However, it supports a limited subset of XAML, and no HTML. In scenario's where you want to display a field that contains HTML rich formatted text (e.g. when you have clients on multiple platforms, such as web, WinRT, iOS and Android), this package offers an alternative to using an embedded browser control. Using a browser control impacts performance and limits the UI experience (e.g. the WebView control does not support transparency). RichTextBlock.Html2Xaml adds an Html extension property to RichTextBlock controls, that you can set (or data bind) to a string containing an Html snippet.
 
+![Mntone WinRT Library](https://github.com/mntone/WinRtLibrary) This is my useful library for UWP and Windows Store app - UI.Xaml.Controls - TypedDataTemplateSelector - VisualTreeHelper2
+
+
 ![Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
 
 ![UWP-Radial-Gauge-Sample](https://github.com/XamlBrewer/UWP-Radial-Gauge-Sample) Demonstrates using the WinRT XAML Toolkit Radial Gauge on the Universal Windows Platform
@@ -148,6 +151,7 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
     IncrementalLoadingCollection in UwpHelpers.Controls.Common (demo in Examples)
     NetworkImage in UwpHelpers.Controls.ImageControls (an Image control that shows download progress)
 
+![WinRT_Calendar](https://github.com/bak301/WinRT_Calendar)
 
 # UI
 ![ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
@@ -182,6 +186,8 @@ Libraries that may support UWP specific features.
 ![uwp-chrome](https://github.com/RReverser/uwp-chrome) Experimental chrome API shim for Universal Windows Platform (UWP / WinRT)
 
 ![UWP-Helpers](https://github.com/EdiWang/UWP-Helpers) Helpers and Utils for UWP Projects
+
+![Kulman.UWP](https://github.com/igorkulman/Kulman.UWP) Collection of utilities and services for UWP apps
 
 ![MyToolkit](https://github.com/MyToolkit/MyToolkit) MyToolkit for .NET http://mytoolkit.io MyToolkit is a set of .NET libraries containing lots of useful classes for various .NET platforms like UWP/WinRT (Universal Windows Apps), Windows Phone and WPF. The goal is to provide missing or replace existing classes to support the development of high-quality Windows and Windows Phone applications. For example, the library provides often used MVVM infrastructure classes, missing UI controls, IoC classes, additional LINQ extension methods and much more.
 
@@ -233,9 +239,17 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 
 ![BouncyCastle-PCL](https://github.com/onovotny/BouncyCastle-PCL) PCL Version of BouncyCastle targetting .NET, SL, WP, WinRT, .NET Core and CoreCLR. The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at http://www.bouncycastle.org. In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP.
 
+![BCLExtensions](https://github.com/csMACnz/BCLExtensions) Base Class Library Extensions for C# base class library classes, across .Net, Silverlight, WinRT. You can view the list if extensions available and future extensions to come on the ![Extensions Wiki Page](https://github.com/csMACnz/BCLExtensions/wiki/Extensions).
+
+![ExcelReader-WinRT](https://github.com/BananaScheriff/ExcelReader-WinRT) Excel sheets reader for Uniwersal Windows Platform
+
+![ValidatableBase](https://github.com/scionwest/ValidatableBase) Model Validation for Universal WinRT Apps through delegate method invocation per-property or DataAnnotation styled attribute validation. Added validation interception support. You may now have the built-in validation rules invoke a delegate method. This provides you with a little more flexibility when performing validation. You may piggy back on top of existing rules for minor checks instead of resorting to a full delegate validation method. By letting your model inherit from ValidatableBase, you can force validation checks on a model from within your view model. Binding to the view is really easy, using one of the two provided converters. The library comes with support for validating minimum and maximum numeric values, ranges of numeric values, string length, null objects, empty collections, empty or null strings and custom delegate method invocation. If you want to write your own attribute validation, you just need to implement IValidationRule and then decorate your object.
+
+
 # Media
 ![MediaFoundation](https://github.com/AndrewGaspar/MediaFoundation) Some helper functions for WinRT for getting media information about some URL
 
+![FFMPEGHelper](https://github.com/krishnan-unni/FFMPEGHelper) Windows 10 Universal WinRT component for FFMPEG library
 
 # Graphics 2D
 ![Win2D](https://github.com/Microsoft/Win2D) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow. http://microsoft.github.io/Win2D (https://github.com/Microsoft/Win2D-Samples)
@@ -243,6 +257,9 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 ![SvgForXaml](https://github.com/mntone/SvgForXaml) Draw image from svg file with Win2D
 
 ![XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif) A simple library to display animated GIF images in XAML apps (WPF, WinRT, Windows Phone)
+
+![GifImageSource](https://github.com/sskodje/GifImageSource) GifImageSource is a Windows Runtime Component for WinRT projects, made for rendering GIF images in a resource efficient way using Direct2D.
+
 
 ![WriteableBitmapEx](https://github.com/teichgraf/WriteableBitmapEx) The WriteableBitmapEx library is a collection of extension methods for the WriteableBitmap. The WriteableBitmap class is available for all XAML flavors including Windows Phone, WPF, WinRT Windows Store XAML, (Windows 10) UWP and Silverlight. It was even ported to Windows Embedded. WriteableBitmapEx allows the direct manipulation of a bitmap and can be used for image manipulation, to generate fast procedural images by drawing directly to a bitmap and more. The WriteableBitmap API is very minimalistic and there's only the raw Pixels array for such operations. The WriteableBitmapEx library tries to compensate that with extensions methods that are easy to use like built in methods and offer GDI+ like functionality. The library extends the WriteableBitmap class with elementary and fast (2D drawing) functionality, conversion methods and functions to combine (blit) WriteableBitmaps. The extension methods are grouped into different C# files using a partial class approach. It is possible to include just a few methods by using the specific source code files directly or the full functionality via the built binaries. 
 
