@@ -40,7 +40,13 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![SQLite](http://www.sqlite.org/) SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain. Microsoft uses SQLite as a core component of Windows 10, and in individual numerous products. ![System.Data.SQLite](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki) System.Data.SQLite is an ADO.NET provider for SQLite.  Development and maintenance work is now mostly performed by the SQLite Development Team. The SQLite team is committed to supporting System.Data.SQLite long-term. ![git mirror of SQLite](https://github.com/mackyle/sqlite) - ![DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "Database Browser for SQLite". Website at: http://sqlitebrowser.org
 
+![Microsoft.Data.Sqlite](https://github.com/aspnet/Microsoft.Data.Sqlite) SQLite implementations of the System.Data.Common interfaces
+
 ![sqlite-net](https://github.com/praeclarum/sqlite-net) sqlite-net is an open source, minimal library to allow .NET and Mono applications to store data in SQLite 3 databases. It is written in C# and is meant to be simply compiled in with your projects. It was first designed to work with MonoTouch on the iPhone, but has grown up to work on all the platforms (Mono for Android, .NET, Silverlight, WP7, WinRT, Azure, etc.). Very simple methods for executing CRUD operations and queries safely (using parameters) and for retrieving the results of those query in a strongly typed fashion. Works with your data model without forcing you to change your classes. (Contains a small reflection-driven ORM layer.)
+
+![SQLitePCL.raw](https://github.com/ericsink/SQLitePCL.raw) SQLitePCL.raw is a Portable Class Library (PCL) for low-level (raw) access to SQLite. This library is designed to be the common portable layer upon which friendlier wrappers can be built. Right now, every C# SQLite library writes their own P/Invoke and COM and marshaling and stuff. Build on this library instead and focus more on the upper layer and its goal of providing a pleasant, easy-to-use API for app developers. When people ask me to recommend a friendlier SQLite wrapper, sqlite-net is the one that I usually recommend. SQLitePCL.pretty is another friendly SQLite API wrapper. 
+
+![SQLitePCL.pretty](https://github.com/bordoley/SQLitePCL.pretty) This library wraps the C like SQLiteAPI provided by SQLitePCL.raw with a friendly C# object oriented API. It adds an Async API. SQLitePCL.pretty has a very simple table mapping ORM, available in the SQLitePCL.pretty.Orm package on nuget. It supports inserting both new and existing objects, and finding and deleting objects by primary key, from SQLite database tables. Notably, the ORM is designed to make working with immutable data types much easier by supporting the builder pattern for deserializing database objects. Ineresting features include the ability to iterate through query result sets using LINQ, support for binary streaming of data in and out of SQLite using .NET streams, and a powerful async API built on the RX framework."
 
 ![YAWL.Serialization](https://github.com/YAWL/YAWL.Serialization) Serialization helper library for Windows applications
 
@@ -81,8 +87,6 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 # Composition
 ![Windows.UI.Composition WinRT API](https://github.com/Microsoft/composition) We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 1511 the Windows.UI.Composition API is now fully public. Many thanks to all of those who contibuted feedback to on the API during it's preview phase to make it that much better. This repository contains code samples created with the Windows.UI.Composition WinRT API. Samples contained in this repository created by the Microsoft Composition team or contributors
 
-
-
 ![UWPCompositionDemos](https://github.com/clarkezone/UWPCompositionDemos) I work on the Composition team at Microsoft that builds the Windows.UI.Composition APIs for the Universal Windows Platform. This project is where I'll be putting demos of the API's functionality when I get time :-)
 
 ![Continuity](https://github.com/JustinXinLiu/Continuity) A project that aims to provide some cool animations, transitions and controls, built on top of the new Windows Composition API.
@@ -93,7 +97,7 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![WinCompositionPlayground](https://github.com/WaltRitscher/WinCompositionPlayground)
 
-![CompositionAnimations](https://github.com/crb9826/CompositionAnimations) A wrapper PCL for the Windows.UI.Composion animations
+![CompositionAnimations](https://github.com/Sergio0694/UICompositionAnimations) A wrapper PCL for the Windows.UI.Composion animations
 
 ![WinCompositionTiltEffect](https://github.com/r2d2rigo/WinCompositionTiltEffect) A behavior for adding a tilt effect to any UWP control, implemented using Windows Composition.
 
@@ -104,6 +108,12 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 ![CompositionAPI](https://github.com/agangal/CompositionAPI)
 
 # Controls
+
+![UniversalMarkdown](https://github.com/QuinnDamerell/UniversalMarkdown) A markdown parsing and rendering library for C# and Windows Universal Apps http://baconit.quinndamerell.com/ Universal Markdown is your one-stop-shop for all of your markdown needs in C#. Universal markdown was built for the open source reddit app Baconit, but hopefully it will be adopted by others and improved by the community. 
+
+![WinRT-StandardDateFormatPicker](https://github.com/ignacy130/WinRT-StandardDateFormatPicker) Simple control based on ComboBoxes to pick date in common in Europe and most of the world format dd-mm-yyyy. Wiki: https://github.com/ignacy130/WinRT-StandardDateFormatPicker/wiki
+
+![RichTextBlock.Html2Xaml](https://github.com/MacawNL/WinRT-RichTextBlock.Html2Xaml) The WinRT RichTextBlock control serves to display read-only rich formatted text. However, it supports a limited subset of XAML, and no HTML. In scenario's where you want to display a field that contains HTML rich formatted text (e.g. when you have clients on multiple platforms, such as web, WinRT, iOS and Android), this package offers an alternative to using an embedded browser control. Using a browser control impacts performance and limits the UI experience (e.g. the WebView control does not support transparency). RichTextBlock.Html2Xaml adds an Html extension property to RichTextBlock controls, that you can set (or data bind) to a string containing an Html snippet.
 
 ![Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
 
@@ -151,7 +161,9 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 ![WindowsStateTriggers](https://github.com/dotMorten/WindowsStateTriggers) A collection of custom visual state triggers
 
 
-# Libs
+# Libs UWP
+
+Libraries that may support UWP specific features.
 
 ![Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the ![Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
 
@@ -181,6 +193,50 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![UWP-Networking-Essentials](https://github.com/SvenEV/UWP-Networking-Essentials) Simple and lightweight networking (including RPC) for Universal Windows Platform apps
 
+![ComposableAdaptiveTriggerDemo](https://github.com/LocalJoost/ComposableAdaptiveTriggerDemo) Demo of a AdaptiveTrigger that works with a StateTrigger inside a CompositeStateTrigger from WindowsStateTriggers
+
+![YAWL.Common](https://github.com/YAWL/YAWL.Common) Common library for all new Windows Phone/Store/UWP/Mobile and Xamarin applications
+
+![WinRT.IncrementalLoadingCollection](https://github.com/AhmedMabrouck/WinRT.IncrementalLoadingCollection) A Windows Runtime custom collection that supports observability and incremental loading out of the box.
+
+![inflatable-toolkit](https://github.com/inflatablefriends/inflatable-toolkit) Stuff we use a lot in WinRT apps
+
+![bigint-winrt](https://github.com/robpaveza/bigint-winrt) A Windows Runtime API for big integers. The source BigInteger implementation is forked from https://github.com/kurmasz/bigint which is based on the bigint library by Matt McCutchen. 
+
+![MetroLog](https://github.com/onovotny/MetroLog) MetroLog is a lightweight logging framework designed for Windows Store and Windows Phone 8 apps. Although the API is based on NLog and log4net, the intention is that it's a very basic logging system. 
+The need for it to be basic comes from the fact that the Windows Store apps API surface area intentionally limited for very specific applications. This project came out of the fact that porting NLog to Windows Store apps is difficult because of it's incredibly rich feature set, most of which is not workable in Windows Store apps.
+
+![WinRTTimeZones](https://github.com/onovotny/WinRTTimeZones) Simple Time Zone conversion for WinRT, Windows Store and Windows Phone 8 apps
+
+# Libs General
+
+Libraries that are compatible with UWP but don't provide UWP specific feature support.
+
+
+![Bex](https://github.com/ScottIsAFool/Bex) A PCL for accessing the MS Health Web APIs. For usage and an overview, please go to http://metronuggets.com/2015/07/10/introducing-bex-a-pcl-library-for-the-ms-health-apis/
+
+![Shim](https://github.com/cureos/shim) Shim provides reduced or dummy implementations of .NET Framework types that are currently not represented in PCL, thereby expanding the ability to create Portable Class Libraries from legacy code.
+
+![InternalContainer.cs](https://github.com/dshe/InternalContainer.cs) A simple IoC container in a single C# 6.0 portable class library (PCL) source file.
+
+![Portable WebDAV Library](https://github.com/DecaTec/Portable-WebDAV-Library) Portable WebDAV Library is a fully RFC 4918 compliant WebDAV client library which is implemented das portable class library (PCL) for use on desktop environments as well as mobile devices. https://decatec.de
+
+![Websockets.PCL](https://github.com/NVentimiglia/Websockets.PCL) C# Websockets for all platforms using native bridges
+
+![sockets-for-pcl](https://github.com/rdavisau/sockets-for-pcl) Cross-platform socket API for Xamarin iOS/Android/Forms, Xamarin.Mac/MonoMac, Windows Phone 8/8.1, Windows Store and Windows Desktop.
+
+![Polly](https://github.com/App-vNext/Polly) Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
+
+![PCLStorage](https://github.com/dsplaisted/PCLStorage) PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Windows Phone, Windows Store, Xamarin.iOS, Xamarin.Android, and Silverlight. This makes it easier to create cross-platform .NET libraries and apps.
+
+![PCLCrypto](https://github.com/AArnott/PCLCrypto) PCLCrypto is an open source library that provides portable class library authors with cryptographic APIs that invoke platform-specific crypto automatically.
+
+![BouncyCastle-PCL](https://github.com/onovotny/BouncyCastle-PCL) PCL Version of BouncyCastle targetting .NET, SL, WP, WinRT, .NET Core and CoreCLR. The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at http://www.bouncycastle.org. In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP.
+
+# Media
+![MediaFoundation](https://github.com/AndrewGaspar/MediaFoundation) Some helper functions for WinRT for getting media information about some URL
+
+
 # Graphics 2D
 ![Win2D](https://github.com/Microsoft/Win2D) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow. http://microsoft.github.io/Win2D (https://github.com/Microsoft/Win2D-Samples)
 
@@ -189,6 +245,8 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 ![XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif) A simple library to display animated GIF images in XAML apps (WPF, WinRT, Windows Phone)
 
 ![WriteableBitmapEx](https://github.com/teichgraf/WriteableBitmapEx) The WriteableBitmapEx library is a collection of extension methods for the WriteableBitmap. The WriteableBitmap class is available for all XAML flavors including Windows Phone, WPF, WinRT Windows Store XAML, (Windows 10) UWP and Silverlight. It was even ported to Windows Embedded. WriteableBitmapEx allows the direct manipulation of a bitmap and can be used for image manipulation, to generate fast procedural images by drawing directly to a bitmap and more. The WriteableBitmap API is very minimalistic and there's only the raw Pixels array for such operations. The WriteableBitmapEx library tries to compensate that with extensions methods that are easy to use like built in methods and offer GDI+ like functionality. The library extends the WriteableBitmap class with elementary and fast (2D drawing) functionality, conversion methods and functions to combine (blit) WriteableBitmaps. The extension methods are grouped into different C# files using a partial class approach. It is possible to include just a few methods by using the specific source code files directly or the full functionality via the built binaries. 
+
+![ImagingUWP](https://github.com/asiertarancon/ImagingUWP) UWP app with Lumia Imaging SDK
 
 # Graphics 3D
 ![SharpDX](https://github.com/sharpdx/SharpDX)
@@ -210,6 +268,14 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 content processing operations including generating normals and tangent frames, triangle
 adjacency computations, and vertex cache optimization.
 
+# Game Dev
+
+![MonoGame](https://github.com/mono/MonoGame) One framework for creating powerful cross-platform games. http://www.monogame.net MonoGame is an open source implementation of the Microsoft XNA 4.x Framework. Our goal is to make it easy for XNA developers to create cross-platform games with extremely high code reuse.
+
+![MonoGame.Extended](https://github.com/craftworkgames/MonoGame.Extended) MonoGame.Extended is a portable class library designed to build on top of MonoGame. It may work also with XNA/FNA (not confirmed) and it should work on other platforms like Xamarin Android or iOS. If you do use it on another platform please let us know!
+
+![FarseerPhysics.Portable](https://github.com/craftworkgames/FarseerPhysics.Portable) This is a fork of the Farseer Physics Engine found on codeplex with a few minor changes to make it work as a Portable Class Library (PCL) with the PCL version of MonoGame.
+
 
 # Language
 
@@ -225,6 +291,8 @@ Opinionated Note: Testing is valuable but Unit Testing is a social meme associat
 
 ![xunit-performance](https://github.com/Microsoft/xunit-performance) Provides extensions over xUnit to author performance tests.
 
+![PCLMock](https://github.com/kentcb/PCLMock) PCLMock is a simple mocking framework in a Portable Class Library. Existing mocking frameworks, such as Moq, do not work on platforms running a limited subset of the .NET framework. Writing mocks without the aid of a framework is laborious, error-prone, and results in inconsistent code. PCLMock aims to reduce this pain.
+
 ![FluentAssertions](https://github.com/dennisdoomen/FluentAssertions) Fluent Assertions is a set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test. We currently use it in all our internal and client projects, and it is used in many open-source projects. It runs on .NET 4.0, 4.5, 4.6, CoreClr, .NET Native, Windows 8.1, Silverlight 5, Windows Phone 8.0… http://www.fluentassertions.com
 
 ![FluentAssertionsEx](https://github.com/hivepeople/FluentAssertionsEx) Extensions for FluentAssertions.
@@ -237,16 +305,19 @@ Opinionated Note: Testing is valuable but Unit Testing is a social meme associat
 
 
 # Samples
-![ComposableAdaptiveTriggerDemo](https://github.com/LocalJoost/ComposableAdaptiveTriggerDemo) Demo of a AdaptiveTrigger that works with a StateTrigger inside a CompositeStateTrigger from WindowsStateTriggers
 
-![YAWL.Common](https://github.com/YAWL/YAWL.Common) Common library for all new Windows Phone/Store/UWP/Mobile and Xamarin applications
 
 ![Windows-universal-samples](https://github.com/Microsoft/Windows-universal-samples) Official API samples for the Universal Windows Platform.
-
-![ImagingUWP](https://github.com/asiertarancon/ImagingUWP) UWP app with Lumia Imaging SDK
 
 ![HealthClinic.biz](https://github.com/Microsoft/HealthClinic.biz) The samples contained in this repo are used to present an end-to-end demo scenario based on a fictitious B2B and multitenant system, named “HealthClinic.biz” that provides different websites, mobile apps, desktop apps, wearable apps, and services running on the latest Microsoft and open technologies aligned with announcements to showcase during … http://aka.ms/Connect
 
 ![UWPQuickStart](https://github.com/Microsoft/UWPQuickStart) Building a Universal Windows app in Visual Studio is quick and easy. We've provided a sample app that you can download and learn how the various pieces fit together. We even encourage you to customize and send a version of this app to the Windows Store!
 
 ![Windows-appsample-quizgame](https://github.com/Microsoft/Windows-appsample-quizgame) A peer-to-peer trivia game sample for the Universal Windows Platform (UWP). 
+
+# Samples That Don't Hurt Your Eyeballs
+
+There are lots of UWP App samples but most of them look like crap either because they are meant to demo a Windows 10 UWP feature or else total lack of aesetic sense. This section will give you some hope that one day the Windows Store won't be full of junk.
+
+![Baconit](https://github.com/QuinnDamerell/Baconit) A beatiful, powerful, reddit client for Windows 10. https://www.reddit.com/r/BaconitDev/ The highest rated reddit client for Windows Phone has been rewritten from the ground up and is now available for all Windows 10 devices. Now with a dynamic new UI, faster speeds, and features you have been asking for. Welcome to the new Baconit. We know you’re going to love it.
+
