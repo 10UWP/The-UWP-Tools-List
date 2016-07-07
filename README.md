@@ -52,11 +52,23 @@ All contributions are welcome. No guidlines other than Title, Link, Description.
 
 ![MarcelloDB](https://github.com/markmeeus/MarcelloDB) .net/mono/xamarin/winrt in-process object database. MarcelloDB is a mobile NoSql database. It is very light-weight with minimal memory footprint. MarcelloDB saves plain C# objects, including child objects, lists and collections. Not having to map your objects to the relational model can save you hundreds of lines of code. MarcelloDB is a pure C# implementation, so there is no need to package other binaries.
 
-![Couchbase](https://github.com/couchbase/couchbase-lite-net) http://www.couchbase.com/ - http://developer.couchbase.com/mobile/ - The NoSQL database solution for mobile — everything you need to build always-available apps that work online & offline. Couchbase Lite is
+![Couchbase](https://github.com/couchbase/couchbase-lite-net) - http://www.couchbase.com/ - http://developer.couchbase.com/mobile/ - The NoSQL database solution for mobile — everything you need to build always-available apps that work online & offline. Couchbase Lite is
 a fully functional, on-device, lightweight, native, embedded NoSQL database. With Couchbase Lite, you have the full power of a Couchbase database locally on the device. You can create, update, delete, query, sync and much, much more.
 
-### Note:
+#### Note:
 Based on this GitHub issue: https://github.com/couchbase/couchbase-lite-net/issues/535 - Couchbase Lite for .NET will be available soon for UWP. "my goal is to still have it in 2016. After the 1.3 release we are going to assess platform support going forward (including the possibility of dropping some, which would free up time for UWP)."
+
+![LiteDB](https://github.com/mbdavid/LiteDB) - http://www.litedb.org/-LiteDB - A .NET NoSQL Document Store in a single data file
+
+####Note:
+Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteDB is coming for UWP but probably not for quite a while.
+
+![DBreeze](https://github.com/hhblaze/DBreeze) - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
+.NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
+
+
+
+
 
 
 #Data Other
