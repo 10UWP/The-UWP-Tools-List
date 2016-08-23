@@ -15,8 +15,9 @@ All contributions are welcome. Try to include a Title, Link, Description but any
 
 Note that current Microsoft Emulators are based on Hyper-V which is a low overhead VM technology. To painlessly fire up emulators, you need both a modern CPU that supports SLAT instructions and the "Pro" version of Windows 10.
 
-### ![Microsoft Downloads and tools for Windows 10](https://developer.microsoft.com/en-us/windows/downloads)
+### Microsoft Downloads and tools for Windows 10
 
+https://developer.microsoft.com/en-us/windows/downloads
 
 ![Windows App Certification Kit](https://developer.microsoft.com/en-us/windows/develop/app-certification-kit) This is an often overlooked gem. If you have a .NET libary etc and want to know how much of you code depends on non UWP API, this tool can help.
 
