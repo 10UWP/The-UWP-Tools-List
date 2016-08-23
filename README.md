@@ -15,7 +15,7 @@ All contributions are welcome. Try to include a Title, Link, Description but any
 
 Note that current Microsoft Emulators are based on Hyper-V which is a low overhead VM technology. To painlessly fire up emulators, you need both a modern CPU that supports SLAT instructions and the "Pro" version of Windows 10.
 
-![Microsoft Downloads and tools for Windows 10](https://developer.microsoft.com/en-us/windows/downloads)
+### ![Microsoft Downloads and tools for Windows 10](https://developer.microsoft.com/en-us/windows/downloads)
 
 ![Windows App Certification Kit](https://developer.microsoft.com/en-us/windows/develop/app-certification-kit) This is an often overlooked gem. If you have a .NET libary etc and want to know how much of you code depends on non UWP API, this tool can help.
 
@@ -26,7 +26,7 @@ Note that current Microsoft Emulators are based on Hyper-V which is a low overhe
 
 ![Multilingual app toolkit](https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit)
 
-![https://developer.microsoft.com/en-us/store/badges](https://developer.microsoft.com/en-us/store/badges) create the HTML and get the artwork needed to promote your apps and content
+![Badges](https://developer.microsoft.com/en-us/store/badges) create the HTML and get the artwork needed to promote your apps and content
 
 ![Microsoft Store Services SDK](https://visualstudiogallery.msdn.microsoft.com/229b7858-2c6a-4073-886e-cbb79e851211) Create A/B tests that you can run and manage in Dev Center. Launch Feedback Hub so customers can submit feedback and upvotes that you can review in Dev Center. Use the advertising APIs to display banner ads and video interstitial ads.
 
@@ -45,7 +45,7 @@ Note that current Microsoft Emulators are based on Hyper-V which is a low overhe
 
 
 
-![Code samples](https://developer.microsoft.com/en-us/windows/samples) 
+### ![Code samples](https://developer.microsoft.com/en-us/windows/samples) 
 
 ![Windows Universal samples](http://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
 
