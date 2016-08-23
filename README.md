@@ -132,6 +132,25 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 # Controls
 
+![UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Microsoft has assembled a few Controls, many of them from other projects on tis list, and other misc helper libs for UWP programming. At the moment, it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their ![Developer website](https://developer.microsoft.com/en-us/windows/samples). The ![UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this ![Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a ![Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see wxactly what is in the kit. 
+
+There is no mention of any Blend specific features or add-ons but there is an instruction on ![how to add the kit to the VS 2015 Designer Toolbox](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit/toolbox).
+
+For some reason Windows Composition is missing in action for this kit. IMO, both Windows Composition and Win2D are unique Microsoft UWP technologies that can make the platform exciting and are natural candidates for this Microsoft showcase.
+
+Controls:
+
+    AdaptiveGridView
+    HamburgerMenu
+    HeaderedTextBlock
+    ImageEx
+    PullToRefreshListView
+    RadialGauge
+    RangeSelector
+    RotatorTile
+    SlideableListItem
+
+
 ![UniversalMarkdown](https://github.com/QuinnDamerell/UniversalMarkdown) A markdown parsing and rendering library for C# and Windows Universal Apps http://baconit.quinndamerell.com/ Universal Markdown is your one-stop-shop for all of your markdown needs in C#. Universal markdown was built for the open source reddit app Baconit, but hopefully it will be adopted by others and improved by the community. 
 
 ![WinRT-StandardDateFormatPicker](https://github.com/ignacy130/WinRT-StandardDateFormatPicker) Simple control based on ComboBoxes to pick date in common in Europe and most of the world format dd-mm-yyyy. Wiki: https://github.com/ignacy130/WinRT-StandardDateFormatPicker/wiki
