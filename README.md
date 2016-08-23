@@ -2,19 +2,87 @@
 
 UWP - Universal Windows Platform for Windows 10 Desktop, Windows 10 Tablets, Windows 10 Mobile Phones, Windows 10 Pixelsense, Windows 10 IOT, Windows Server, Windows 10 HoloLens, and Windows 10 Xbox.
 
-Some of the PCL based libraries also work with Android and Apple IOS via Xamarin. PCL targeted at .NET 3 also work with Unity 3D as another way of targeting Android and IOS. This List is currently focused on Windows 10 devices but I'll try to call out other targets.
+Some UWP libraries are PCL based and should also work with Android and Apple IOS via Xamarin. PCL targeted at .NET 3 also work with Unity 3D as another way of targeting Android and IOS. This List is currently focused on Windows 10 devices but I'll try to call out other targets. The introduction of .NET Core should also help in this area.
 
-On a Windows 10 Desktop or Tablet, a UWP App is typically deployed to a safe sandboxed environment via the Windows Store but the App can also be easily sideloaded to access legacy Windows 10 Desktop features and services with the ![BCTemplates](https://github.com/lancecontreras/BCTemplates)  project being an example of one approach.
+On a Windows 10 Desktop or Tablet, a UWP App is typically deployed to a safe sandboxed environment via the Windows Store but the App can also be easily sideloaded to access legacy Windows 10 Desktop features and services with the ![BCTemplates](https://github.com/lancecontreras/BCTemplates)  project being an example of one approach. This process has become very convenient with the Anniversary Update and is a simple setting in "Update & security" which makes a Windows 10 Tablet and Windows 10 Mobile device a very convenient deployment device for all kinds of touch based applications out in the "Real World"
 
 This is extensive list (in progress) of potentially useful UWP Tools, Libraries, Samples etc to help make your UWP development more awesome. The list is non-curated (but with opininated comments when available). The ultimate objective is to provide a broad starting point for UWP development to perhaps help to offset the currently chaotic and sporadic information that is generally available.
 
-All contributions are welcome. No guidlines other than Title, Link, Description. Adding an GitHub Issue might be your least effort way to add something here. I'll even try to insert any comments you might have to make this document a bit more interesting to read over and above a rather dry list of projects.
+All contributions are welcome. Try to include a Title, Link, Description but any comment is welcome. Adding an GitHub Issue is another low effort way to add something here. I'll even try to insert any editorial type comments you might want to share in order to make this document a bit more interesting to read over and above a rather dry list of projects.
 
 
+# Microsoft
+
+Note that current Microsoft Emulators are based on Hyper-V which is a low overhead VM technology. To painlessly fire up emulators, you need both a modern CPU that supports SLAT instructions and the "Pro" version of Windows 10.
+
+![Microsoft Downloads and tools for Windows 10](https://developer.microsoft.com/en-us/windows/downloads)
+
+![Windows App Certification Kit](https://developer.microsoft.com/en-us/windows/develop/app-certification-kit) This is an often overlooked gem. If you have a .NET libary etc and want to know how much of you code depends on non UWP API, this tool can help.
+
+![Windows 10 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) This is required, but included with VS 2015. 
+![Mobile Emulator](https://msdn.microsoft.com/windows/uwp/debug-test-perf/test-with-the-emulator)
+
+![HoloLens](https://developer.microsoft.com/en-us/windows/holographic/development_overview) Get the tools you need to build apps for Windows, including holographic apps. There is no separate SDK for HoloLens; holographic app development uses Visual Studio 2015 Update 3 with the Windows 10 SDK (version 1511 or later). Don't have a HoloLens? You can install the ![HoloLens emulator](https://developer.microsoft.com/en-us/windows/holographic/using_the_hololens_emulator) to build holographic apps without a HoloLens. We also recommend installing the Unity game engine as an easy way to get started creating holographic apps.
+
+![Multilingual app toolkit](https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit)
+
+![https://developer.microsoft.com/en-us/store/badges](https://developer.microsoft.com/en-us/store/badges) create the HTML and get the artwork needed to promote your apps and content
+
+![Microsoft Store Services SDK](https://visualstudiogallery.msdn.microsoft.com/229b7858-2c6a-4073-886e-cbb79e851211) Create A/B tests that you can run and manage in Dev Center. Launch Feedback Hub so customers can submit feedback and upvotes that you can review in Dev Center. Use the advertising APIs to display banner ads and video interstitial ads.
+
+![OneDrive API 2.0](https://dev.onedrive.com/index.htm)
+
+![Azure-adding a cloud backend to your mobile app](https://azure.microsoft.com/en-us/documentation/services/app-service/mobile/)
+
+![Where is the DirectX SDK?](https://msdn.microsoft.com/library/windows/desktop/ee663275.aspx) DirectX is now a fundamental part of Windows.Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK. We originally created the DirectX SDK as a high-performance platform for game development on top of Windows. As DirectX technologies matured, they became relevant to a broader range of applications. Today, the availability of Direct3D hardware in computers drives even traditional desktop applications to use graphics hardware acceleration. In parallel, DirectX technologies are more integrated with Windows. 
+
+![Microsoft Lumia SDKs](https://developer.microsoft.com/en-us/windows/featured/lumia) SensorCore SDK 1.2 Preview & Imaging SDK 3.0
+
+![VM - Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines) Run this VM on your current Mac or PC for an evaluation of the Universal Windows Platform tools and technologies
+
+![Windows 10 IoT Core](https://developer.microsoft.com/en-us/windows/iot/Downloads.htm#Win8)
+
+
+
+
+![Code samples](https://developer.microsoft.com/en-us/windows/samples) 
+
+![Windows Universal samples](http://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
+
+![Windows.UI.Composition](https://github.com/Microsoft/WindowsUIDevLabs) With the deceptive name of "Windows UI dev labs" this repo contains code samples, demos, experiments, prototypes, and preview explorations that show how to use Windows.UI.Xaml and Windows.UI.Composition to make beautiful UWP applications. 
+
+![Win2D](https://github.com/Microsoft/Win2D/archive/master.zip) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers, and utilizes the power of Direct2D, integrating seamlessly with XAML and CoreWindow.
+
+![DirectX 12 graphics samples](https://github.com/Microsoft/DirectX-Graphics-Samples) DirectX 12 Graphics samples that demonstrate how to build graphics intensive applications on Windows.
+
+![Windows task snippets](https://github.com/Microsoft/Windows-task-snippets) Snippets of ready-to-use code that accomplish small, but useful, tasks of interest to UWP app developers. These snippets show simple solutions to common problems, and simple recipes to help you implement new app features.
+
+![Photo Sharing App](https://github.com/Microsoft/Appsample-Photosharing) UWP app sample that demonstrates real-world social media experiences around photo sharing.
+
+![Rss Reader](https://github.com/Microsoft/Windows-appsample-rssreader) A UWP app sample for retrieving RSS feeds and viewing articles, demonstrating adaptive layout and hierarchical navigation patterns.
+
+![Family notes](https://github.com/Microsoft/Windows-appsample-familynotes)
+
+
+![Hue light controller](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
+
+
+![Traffic app](https://github.com/Microsoft/Windows-appsample-trafficapp)
+
+
+![Network helper](https://github.com/Microsoft/Windows-appsample-networkhelper)
+
+
+![Marble Maze](https://github.com/microsoft/Windows-appsample-marble-maze)
+
+
+![Office 365 code samples](http://dev.office.com/code-samples) integrating Office 365 data and services into your app
+
+![UWP Community Toolkit](https://aka.ms/uwptoolkit) See description in Controls section
 
 
 # Information
-![awesome-uwp](https://github.com/tomzorz/awesome-uwp) Awesome UWP resources - inspired by Awesome .NET. - It appears to be a "curated" list whereas ![The-UWP-Tools-List](https://github.com/10UWP/The-UWP-Tools-List) is an attempt to include all possibly useful UWP tools and code.
+![awesome-uwp](https://github.com/tomzorz/awesome-uwp) Awesome UWP resources - inspired by Awesome .NET. - It appears to be a normal "awesome-style" "curated" list whereas ![The-UWP-Tools-List](https://github.com/10UWP/The-UWP-Tools-List) is an attempt to include all possibly useful UWP tools and code. Over time, I hope to have just about everything I can find on GitHub and anywhere else so examine all code carefully before using (but the great glory of open source is that the code speaks for itself) and make sure it has a license you are happy with.  
 
 # Frameworks
 
@@ -132,7 +200,7 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 # Controls
 
-![UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Microsoft has assembled a few Controls, many of them from other projects on tis list, and other misc helper libs for UWP programming. At the moment, it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their ![Developer website](https://developer.microsoft.com/en-us/windows/samples). The ![UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this ![Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a ![Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see wxactly what is in the kit. 
+![UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Microsoft has assembled a few Controls, many of them from other projects on this list, and other misc helper libs for UWP programming. At the moment, it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their ![Developer website](https://developer.microsoft.com/en-us/windows/samples). The ![UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this ![Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a ![Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see exactly what is in the kit. 
 
 There is no mention of any Blend specific features or add-ons but there is an instruction on ![how to add the kit to the VS 2015 Designer Toolbox](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit/toolbox).
 
