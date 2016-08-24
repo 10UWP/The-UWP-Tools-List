@@ -24,29 +24,27 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 ![Windows 10 SDK] () https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk This is required, but included with VS 2015. 
 
-![Mobile Emulator](https://msdn.microsoft.com/windows/uwp/debug-test-perf/test-with-the-emulator)
+![Mobile Emulator]() https://msdn.microsoft.com/windows/uwp/debug-test-perf/test-with-the-emulator
 
-![HoloLens](https://developer.microsoft.com/en-us/windows/holographic/development_overview) Get the tools you need to build apps for Windows, including holographic apps. There is no separate SDK for HoloLens; holographic app development uses Visual Studio 2015 Update 3 with the Windows 10 SDK (version 1511 or later). Don't have a HoloLens? You can install the ![HoloLens emulator](https://developer.microsoft.com/en-us/windows/holographic/using_the_hololens_emulator) to build holographic apps without a HoloLens. We also recommend installing the Unity game engine as an easy way to get started creating holographic apps.
+![HoloLens]() https://developer.microsoft.com/en-us/windows/holographic/development_overview Get the tools you need to build apps for Windows, including holographic apps. There is no separate SDK for HoloLens; holographic app development uses Visual Studio 2015 Update 3 with the Windows 10 SDK (version 1511 or later). Don't have a HoloLens? You can install the ![HoloLens emulator]() https://developer.microsoft.com/en-us/windows/holographic/using_the_hololens_emulator to build holographic apps without a HoloLens. We also recommend installing the Unity game engine as an easy way to get started creating holographic apps.
 
-![Multilingual app toolkit](https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit)
+![Multilingual app toolkit]() https://developer.microsoft.com/en-us/windows/develop/multilingual-app-toolkit
 
-![Badges](https://developer.microsoft.com/en-us/store/badges) create the HTML and get the artwork needed to promote your apps and content
+![Badges]() https://developer.microsoft.com/en-us/store/badges create the HTML and get the artwork needed to promote your apps and content
 
-![Microsoft Store Services SDK](https://visualstudiogallery.msdn.microsoft.com/229b7858-2c6a-4073-886e-cbb79e851211) Create A/B tests that you can run and manage in Dev Center. Launch Feedback Hub so customers can submit feedback and upvotes that you can review in Dev Center. Use the advertising APIs to display banner ads and video interstitial ads.
+![Microsoft Store Services SDK]() https://visualstudiogallery.msdn.microsoft.com/229b7858-2c6a-4073-886e-cbb79e851211 Create A/B tests that you can run and manage in Dev Center. Launch Feedback Hub so customers can submit feedback and upvotes that you can review in Dev Center. Use the advertising APIs to display banner ads and video interstitial ads.
 
-![OneDrive API 2.0](https://dev.onedrive.com/)
+![OneDrive API 2.0]() https://dev.onedrive.com/
 
-![Azure-adding a cloud backend to your mobile app](https://azure.microsoft.com/en-us/documentation/services/app-service/mobile/)
+![Azure-adding a cloud backend to your mobile app]() https://azure.microsoft.com/en-us/documentation/services/app-service/mobile/
 
-![Where is the DirectX SDK?](https://msdn.microsoft.com/library/windows/desktop/ee663275.aspx) DirectX is now a fundamental part of Windows.Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK. We originally created the DirectX SDK as a high-performance platform for game development on top of Windows. As DirectX technologies matured, they became relevant to a broader range of applications. Today, the availability of Direct3D hardware in computers drives even traditional desktop applications to use graphics hardware acceleration. In parallel, DirectX technologies are more integrated with Windows. 
+![Where is the DirectX SDK?]() https://msdn.microsoft.com/library/windows/desktop/ee663275.aspx DirectX is now a fundamental part of Windows.Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK. We originally created the DirectX SDK as a high-performance platform for game development on top of Windows. As DirectX technologies matured, they became relevant to a broader range of applications. Today, the availability of Direct3D hardware in computers drives even traditional desktop applications to use graphics hardware acceleration. In parallel, DirectX technologies are more integrated with Windows. 
 
-![Microsoft Lumia SDKs](https://developer.microsoft.com/en-us/windows/featured/lumia) SensorCore SDK 1.2 Preview & Imaging SDK 3.0
+![Microsoft Lumia SDKs]() https://developer.microsoft.com/en-us/windows/featured/lumia SensorCore SDK 1.2 Preview & Imaging SDK 3.0
 
-![VM - Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines) Run this VM on your current Mac or PC for an evaluation of the Universal Windows Platform tools and technologies
+![VM - Get a Windows 10 development environment]() https://developer.microsoft.com/en-us/windows/downloads/virtual-machines Run this VM on your current Mac or PC for an evaluation of the Universal Windows Platform tools and technologies
 
-![Windows 10 IoT Core](https://developer.microsoft.com/en-us/windows/iot/Downloads.htm)
-
-
+![Windows 10 IoT Core]() https://developer.microsoft.com/en-us/windows/iot/Downloads.htm
 
 
 ### Code Samples
@@ -82,9 +80,9 @@ https://developer.microsoft.com/en-us/windows/samples
 ![Marble Maze](https://github.com/microsoft/Windows-appsample-marble-maze)
 
 
-![Office 365 code samples](http://dev.office.com/code-samples) integrating Office 365 data and services into your app
+![Office 365 code samples]() http://dev.office.com/code-samples integrating Office 365 data and services into your app
 
-![UWP Community Toolkit](https://aka.ms/uwptoolkit) See description in Controls section
+![UWP Community Toolkit]() https://aka.ms/uwptoolkit See description in Controls section
 
 
 # Information
