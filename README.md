@@ -51,7 +51,7 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 https://developer.microsoft.com/en-us/windows/samples
 
-![Windows Universal Samples](http://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
+![Microsoft UWP Official Samples](https://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
 
 ![Windows.UI.Composition](https://github.com/Microsoft/WindowsUIDevLabs) With the deceptive name of "Windows UI dev labs" this repo contains code samples, demos, experiments, prototypes, and preview explorations that show how to use Windows.UI.Xaml and Windows.UI.Composition to make beautiful UWP applications. 
 
