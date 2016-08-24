@@ -380,7 +380,16 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 ![ImagingUWP](https://github.com/asiertarancon/ImagingUWP) UWP app with Lumia Imaging SDK
 
 # Graphics 3D
-![SharpDX](https://github.com/sharpdx/SharpDX)
+![SharpDX](http://sharpdx.org/) SharpDX is an open-source managed .NET wrapper of the DirectX API. Windows Store Apps PCL .NET 4.6+ including the Universal Windows Platform (UWP) & Windows Desktops that supports .NET 4.5+
+https://github.com/sharpdx/SharpDX 
+
+![SharpDX Samples](https://github.com/sharpdx/SharpDX-Samples) This repository contains more than 100+ code samples using SharpDX
+
+![SharpDXTex](https://github.com/oguna/SharpDXTex) Texture library for SharpDX3.0 - Managed wrapper of DirectXTex - In SharpDX3.0, D3DX libraries, Texture.LoadFromFile or Texture.LoadFromStream, were removed. If you want to use taht functions, you can use this library alternatively.
+
+![SharpDXTutorials](https://github.com/mrjfalk/SharpDXTutorials) Code for my SharpDX Tutorials at www.johanfalk.eu.
+
+![SharpDX D3D12 Hello World](https://github.com/RobyDX/SharpDX_D3D12HelloWorld)  DirectX12 Hello World samples created with SharpDx and C# http://www.notjustcode.it - This sample are porting of original D3D12 Hello World realised by Microsoft. I've converted this samples in C# using last version of SharpDx and ![DirectX11 Tutorial](https://github.com/RobyDX/SharpDX_Demo) This is a collection of demos that show how to use DirectX11 tecnology with SharpDX library (http://sharpdx.org/) and C# in .Net 4.5 platform Every source want to be as easy as possible to give attention to the arguments of each one.
 
 ![DirectXTK12](https://github.com/Microsoft/DirectXTK12) The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++ https://blogs.msdn.microsoft.com/chuckw/2016/07/18/directx-tool-kit-for-directx-12/
 
