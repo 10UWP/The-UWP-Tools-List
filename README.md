@@ -32,7 +32,7 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 ![Microsoft Store Services SDK](https://visualstudiogallery.msdn.microsoft.com/229b7858-2c6a-4073-886e-cbb79e851211) Create A/B tests that you can run and manage in Dev Center. Launch Feedback Hub so customers can submit feedback and upvotes that you can review in Dev Center. Use the advertising APIs to display banner ads and video interstitial ads.
 
-![OneDrive API 2.0](https://dev.onedrive.com/index.htm)
+![OneDrive API 2.0](https://dev.onedrive.com/)
 
 ![Azure-adding a cloud backend to your mobile app](https://azure.microsoft.com/en-us/documentation/services/app-service/mobile/)
 
@@ -42,12 +42,14 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 ![VM - Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines) Run this VM on your current Mac or PC for an evaluation of the Universal Windows Platform tools and technologies
 
-![Windows 10 IoT Core](https://developer.microsoft.com/en-us/windows/iot/Downloads.htm#Win8)
+![Windows 10 IoT Core](https://developer.microsoft.com/en-us/windows/iot/Downloads.htm)
 
 
 
 
-### ![Code samples](https://developer.microsoft.com/en-us/windows/samples)
+### Code Samples
+
+https://developer.microsoft.com/en-us/windows/samples
 
 ![Windows Universal Samples](http://github.com/Microsoft/Windows-universal-samples)This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
 
