@@ -1,11 +1,12 @@
 #testing area for MD
 
- :red_circle:
-  :large_blue_circle:
-   :large_blue_diamond:
-    :black_square_button:
-     :curly_loop:
-      :ballot_box_with_check:
+- :fuelpump:
+- :red_circle:
+- :large_blue_circle:
+- :large_blue_diamond:
+- :black_square_button:
+- :curly_loop:
+- :ballot_box_with_check:
        :white_check_mark:
        :alien:
        :o:
@@ -81,25 +82,20 @@
            :football:
            :gem:
            :space_invader:
-           :game_die:
-            :book:
-            :clapper:
-            :memo:
-            :art:
-            :briefcase:
-             :eyeglasses:
-            
-             :coffee:
-             :hamburger:
-             :cookie:
-             :lollipop:
-  :apple:            
-        :rocket:      
-             
-             
-             
-             
-          :pencil2:
+- :game_die:
+- :book:
+- :clapper:
+- :memo:
+- :art:
+- :briefcase:
+- :eyeglasses:
+- :coffee:
+- :hamburger:
+- :cookie:
+- :lollipop:
+- :apple:
+- :rocket:      
+- :pencil2:
           
           
           
