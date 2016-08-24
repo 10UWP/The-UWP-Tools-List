@@ -12,6 +12,7 @@ All contributions are welcome. Try to include a Title, Link, Description but any
 
 
 # Microsoft
+- Format Note: for some reason the GitHub Markdown editor is mangling every link from the Microsoft website into a Camo link that doesn't even work, so for now I will make all Microsoft links as direct URL in the text.
 
 Note that current Microsoft Emulators are based on Hyper-V which is a low overhead VM technology. To painlessly fire up emulators, you need both a modern CPU that supports SLAT instructions and the "Pro" version of Windows 10.
 
@@ -19,9 +20,10 @@ Note that current Microsoft Emulators are based on Hyper-V which is a low overhe
 
 https://developer.microsoft.com/en-us/windows/downloads
 
-![Windows App Certification Kit](https://developer.microsoft.com/en-us/windows/develop/app-certification-kit) This is an often overlooked gem. If you have a .NET libary etc and want to know how much of you code depends on non UWP API, this tool can help.
+![Windows App Certification Kit]() https://developer.microsoft.com/en-us/windows/develop/app-certification-kit This is an often overlooked gem. If you have a .NET libary etc and want to know how much of you code depends on non UWP API, this tool can help.
 
-![Windows 10 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) This is required, but included with VS 2015. 
+![Windows 10 SDK] () https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk This is required, but included with VS 2015. 
+
 ![Mobile Emulator](https://msdn.microsoft.com/windows/uwp/debug-test-perf/test-with-the-emulator)
 
 ![HoloLens](https://developer.microsoft.com/en-us/windows/holographic/development_overview) Get the tools you need to build apps for Windows, including holographic apps. There is no separate SDK for HoloLens; holographic app development uses Visual Studio 2015 Update 3 with the Windows 10 SDK (version 1511 or later). Don't have a HoloLens? You can install the ![HoloLens emulator](https://developer.microsoft.com/en-us/windows/holographic/using_the_hololens_emulator) to build holographic apps without a HoloLens. We also recommend installing the Unity game engine as an easy way to get started creating holographic apps.
@@ -51,7 +53,7 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 https://developer.microsoft.com/en-us/windows/samples
 
-![Windows Universal Samples](http://github.com/Microsoft/Windows-universal-samples)This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
+![Windows Universal Samples](http://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
 
 ![Windows.UI.Composition](https://github.com/Microsoft/WindowsUIDevLabs) With the deceptive name of "Windows UI dev labs" this repo contains code samples, demos, experiments, prototypes, and preview explorations that show how to use Windows.UI.Xaml and Windows.UI.Composition to make beautiful UWP applications. 
 
