@@ -1,5 +1,27 @@
 #testing area for MD
 
+:fuelpump: The UWP Tools List
+
+:ballot_box_with_check: The UWP Tools List
+ 
+:gem: The UWP Tools List
+  
+:lollipop: The UWP Tools List
+ 
+:eyeglasses: The UWP Tools List
+  
+:memo: The UWP Tools List
+   
+:pushpin: The UWP Tools List
+
+:hammer: The UWP Tools List
+
+:globe_with_meridians: The UWP Tools List
+
+:wrench: The UWP Tools List
+
+:sun_with_face: The UWP Tools List
+
 - :fuelpump:
 - :red_circle:
 - :large_blue_circle:
