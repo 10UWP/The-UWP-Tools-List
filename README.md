@@ -382,7 +382,13 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 # Graphics 3D
 ![SharpDX](https://github.com/sharpdx/SharpDX)
 
+![DirectXTK12](https://github.com/Microsoft/DirectXTK12) The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++ https://blogs.msdn.microsoft.com/chuckw/2016/07/18/directx-tool-kit-for-directx-12/
+
 ![DirectXTK](https://github.com/Microsoft/DirectXTK) The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++ http://blogs.msdn.com/b/chuckw/archive/2012/03/02/directxtk.aspx
+
+![DirectXMath](https://github.com/Microsoft/DirectXMath) DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps https://blogs.msdn.microsoft.com/chuckw/2012/03/26/introducing-directxmath/
+
+![UVAtlas](https://github.com/Microsoft/UVAtlas) UVAtlas isochart texture atlas http://blogs.msdn.com/b/chuckw/archive/2014/11/14/uvatlas-return-of-the-isochart.aspx
 
 ![DirectXTex](https://github.com/Microsoft/DirectXTex) DirectXTex texture processing library http://blogs.msdn.com/b/chuckw/archive/2011/10/28/directxtex.aspx
 
@@ -417,7 +423,7 @@ adjacency computations, and vertex cache optimization.
 
 # Testing
 
-Opinionated Note: Testing is valuable but Unit Testing is a social meme associated with the always hard to pin down Agile movement but despite my dislike of meme-driven-development, I'll include UWP focused Unit Testing since you need to jump thru extra hoops on top of the already rediculous monkey hoops and various perversions of Object Design in order to make your CI robot lamp glow green on UWP...
+Opinionated Note: There is a lot of scaffolding issues to consider for testing UWP apps and I have a healthy sckepticism of social memes such as "Agile" and "Unit Testing" so this category is essential at the bottom of my attention list so, please let me know if I have missed any libraries and tools associated with UWP Testing
 
 ![myweather](https://github.com/fernandoescolar/myweather) This is a demo of unit testing in UWP. It contains a T4 template to generate all the Spies, Stubs and Mocks of all the interfdaces found in your solution.
 
