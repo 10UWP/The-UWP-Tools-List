@@ -88,6 +88,11 @@ https://developer.microsoft.com/en-us/windows/samples
 # Information
 ![awesome-uwp](https://github.com/tomzorz/awesome-uwp) Awesome UWP resources - inspired by Awesome .NET. - It appears to be a normal "awesome-style" "curated" list whereas ![The-UWP-Tools-List](https://github.com/10UWP/The-UWP-Tools-List) is an attempt to include all possibly useful UWP tools and code. Over time, I hope to have just about everything I can find on GitHub and anywhere else so examine all code carefully before using (but the great glory of open source is that the code speaks for itself) and make sure it has a license you are happy with.  
 
+# Tools
+
+Note to add some actual Tools that might be handy for UWP development.
+
+
 # Frameworks
 
 ![MVVM-Sidekick](https://github.com/waynebaby/MVVM-Sidekick) A Modern light-weight MVVM framework based on RX and Await
