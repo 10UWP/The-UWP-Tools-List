@@ -288,6 +288,8 @@ Controls:
 
 Libraries that may support UWP specific features.
 
+![IpatovUWP](https://github.com/Opiumtm/IpatovUWP) UWP common use helper libraries such as util code for DataBinding.
+
 ![Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the ![Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
 
 ![YAWL.Composition](https://github.com/YAWL/YAWL.Composition) Composable building blocks for MVVM based Windows 10 applications
