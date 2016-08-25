@@ -51,21 +51,21 @@ https://developer.microsoft.com/en-us/windows/downloads
 
 https://developer.microsoft.com/en-us/windows/samples
 
-![Microsoft UWP Official Samples](https://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
+[Microsoft UWP Official Samples](https://github.com/Microsoft/Windows-universal-samples) This is is the main repo of Microsoft UWP samples. A multitude of tiny code bits showing every part of UWP.
 
-![Windows.UI.Composition](https://github.com/Microsoft/WindowsUIDevLabs) With the deceptive name of "Windows UI dev labs" this repo contains code samples, demos, experiments, prototypes, and preview explorations that show how to use Windows.UI.Xaml and Windows.UI.Composition to make beautiful UWP applications. 
+[Windows.UI.Composition](https://github.com/Microsoft/WindowsUIDevLabs) With the deceptive name of "Windows UI dev labs" this repo contains code samples, demos, experiments, prototypes, and preview explorations that show how to use Windows.UI.Xaml and Windows.UI.Composition to make beautiful UWP applications. 
 
-![Win2D](https://github.com/Microsoft/Win2D/archive/master.zip) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers, and utilizes the power of Direct2D, integrating seamlessly with XAML and CoreWindow.
+[Win2D](https://github.com/Microsoft/Win2D/archive/master.zip) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers, and utilizes the power of Direct2D, integrating seamlessly with XAML and CoreWindow.
 
-![DirectX 12 graphics samples](https://github.com/Microsoft/DirectX-Graphics-Samples) DirectX 12 Graphics samples that demonstrate how to build graphics intensive applications on Windows.
+[DirectX 12 graphics samples](https://github.com/Microsoft/DirectX-Graphics-Samples) DirectX 12 Graphics samples that demonstrate how to build graphics intensive applications on Windows.
 
-![Windows task snippets](https://github.com/Microsoft/Windows-task-snippets) Snippets of ready-to-use code that accomplish small, but useful, tasks of interest to UWP app developers. These snippets show simple solutions to common problems, and simple recipes to help you implement new app features.
+[Windows task snippets](https://github.com/Microsoft/Windows-task-snippets) Snippets of ready-to-use code that accomplish small, but useful, tasks of interest to UWP app developers. These snippets show simple solutions to common problems, and simple recipes to help you implement new app features.
 
-![Photo Sharing App](https://github.com/Microsoft/Appsample-Photosharing) UWP app sample that demonstrates real-world social media experiences around photo sharing.
+[Photo Sharing App](https://github.com/Microsoft/Appsample-Photosharing) UWP app sample that demonstrates real-world social media experiences around photo sharing.
 
-![Rss Reader](https://github.com/Microsoft/Windows-appsample-rssreader) A UWP app sample for retrieving RSS feeds and viewing articles, demonstrating adaptive layout and hierarchical navigation patterns.
+[Rss Reader](https://github.com/Microsoft/Windows-appsample-rssreader) A UWP app sample for retrieving RSS feeds and viewing articles, demonstrating adaptive layout and hierarchical navigation patterns.
 
-https://github.com/Microsoft/Windows-appsample-rssreader/blob/master/RssReader.png
+![](https://github.com/Microsoft/Windows-appsample-rssreader/blob/master/RssReader.png)
 
 - The navigation menu (hamburger menu) pattern and screen-width adaptivity using the SplitView control and the AdaptiveTrigger class.
 - The Syndication APIs (Windows.Web.Syndication) to retrieve RSS feed data.
