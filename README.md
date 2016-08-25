@@ -65,6 +65,22 @@ https://developer.microsoft.com/en-us/windows/samples
 
 ![Rss Reader](https://github.com/Microsoft/Windows-appsample-rssreader) A UWP app sample for retrieving RSS feeds and viewing articles, demonstrating adaptive layout and hierarchical navigation patterns.
 
+https://github.com/Microsoft/Windows-appsample-rssreader/blob/master/RssReader.png
+
+- The navigation menu (hamburger menu) pattern and screen-width adaptivity using the SplitView control and the AdaptiveTrigger class.
+- The Syndication APIs (Windows.Web.Syndication) to retrieve RSS feed data.
+- The DataContractSerializer class to save and restore app data from local storage.
+- C# and XAML using the MVVM design pattern.
+
+March 2016 update:
+
+- A complete redesign of the UI to show effective use of color, type, images, and animated effects.
+- Major improvements to layout, navigation, and window-size adaptivity to support small and large screens.
+- Use of the WebView control to show articles within the app.
+- The ability to rename feeds and to rearrange feeds and favorites.
+
+We implemented the navigation and layout patterns in this sample using code from the XAML navigation menu and XAML master/detail samples in the Windows-universal-samples repo. These samples represent the current minimum recommendations for these patterns, and the RssReader sample will continue to reflect this guidance in future updates. 
+
 ![Family notes](https://github.com/Microsoft/Windows-appsample-familynotes)
 
 
