@@ -63,6 +63,33 @@ https://developer.microsoft.com/en-us/windows/samples
 
 [Photo Sharing App](https://github.com/Microsoft/Appsample-Photosharing) UWP app sample that demonstrates real-world social media experiences around photo sharing.
 
+PhotoSharingApp is a Universal Windows Platform (UWP) app sample that demonstrates real-world social media experiences around photo sharing.
+
+With this app, users can earn virtual gold by uploading and sharing photos with people from all around the world. They can upload photos of their cats, shoes, houses, or last vacations, and see how they compete against other users. Are their photos a great gold source? Are they among the most generous contributors? They can find out on the app's leaderboard.
+
+The goal of this app is to provide a complete, end-to-end example of a real-world app that uses a variety of UWP features, and exhibits design and development best practices. This makes it a great source of code you can copy into your own apps. It also provides an example of what a real-world app architecture might look like. The decoupled architecture makes it easy to reuse code or to make changes and build your own photo sharing app, which you can then publish in the Windows Store.
+
+![](https://github.com/Microsoft/Appsample-Photosharing/raw/master/Images/Category-Overview-Desktop-Mobile.jpg)
+
+-    Browse photo categories and navigate into photo collections and photo details.
+-    Take and upload photos directly in the app or upload an existing photo.
+-    Give gold and add comments to photos uploaded by other users.
+-    Receive push notifications when users are given gold for uploaded photos.
+-    Explore a leaderboard of users with the most gold, users that have given the most gold to other photos, and the photos that have received the most gold.
+-    Sign in with a Microsoft, Facebook, Google, or Twitter account.
+-    Report content as abusive, inappropriate, or spam.
+-    Buy virtual gold using in-app purchase.
+
+- Adaptive UI using the SplitView control (see video on Channel 9) and adaptive triggers:
+- In-app purchase (see the Windows.ApplicationModel.Store namespace):
+- Separation between user interface, business logic and data models (MVVM):
+- Extensibility and flexibility using the Unity dependency container:
+- How to connect your app to an Azure App Service
+- Real-world service implementation for storing uploaded photos using Azure DocumentDB
+- Sign-in with Azure Mobile Apps:
+- Usage analysis with Visual Studio Application Insights
+- Push Notifications (see Integration with App Service Mobile Apps in Azure Notification Hubs:
+
 [Rss Reader](https://github.com/Microsoft/Windows-appsample-rssreader) A UWP app sample for retrieving RSS feeds and viewing articles, demonstrating adaptive layout and hierarchical navigation patterns.
 
 ![](https://github.com/Microsoft/Windows-appsample-rssreader/blob/master/RssReader.png)
@@ -83,18 +110,84 @@ We implemented the navigation and layout patterns in this sample using code from
 
 [Family notes](https://github.com/Microsoft/Windows-appsample-familynotes)
 
+FamilyNotes is a Universal Windows Platform (UWP) app sample that explores different input modalities and scenarios of user awareness. The FamilyNotes sample is essentially a bulletin board app that allows family members to leave notes for each other on a common PC/tablet just like they would a bulletin board. Using text, speech, ink, or pictures, a user can create a note and tag it for another user. Later when that other user approaches the PC/Tablet, the app uses imaging APIs and the Microsoft Cognitive Services (Face API) to detect their presence and display the notes that have been left for them, effectively filtering based on facial recognition. While the app is open, users can naturally interact with it using speech (“Add note for Bob”). If the app isn’t open, a user can easily launch it and interact with it using Cortana.
+
+![](https://github.com/Microsoft/Windows-appsample-familynotes/raw/master/Screenshots/Using_Ink_Voice_and_Face_Recognition_in_a_UWP_App_Video.PNG)
+
+![](https://github.com/Microsoft/Windows-appsample-familynotes/raw/master/Screenshots/FamilyNotes.PNG)
+
+-    Speech recognition and speech synthesis by using the SpeechRecognizer and SpeechSynthesizer classes.
+-    User detection using the MediaCapture and FaceDetectionEffect classes.
+-    User facial recognition using the Microsoft Face API.
+-    Activation through Cortana voice commands, defined in VoiceCommands.xml (a VCD file), using VoiceCommands and Activation classes.
+-    Pen input using the InkCanvas API
+-    JSON serialization using the DataContractJsonSerializer class.
+-    Setting the app wallpaper using the Bing image of the day task snippet.
 
 [Hue light controller](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
 
+HueLightController is a Universal Windows Platform (UWP) app sample that explores integrating Windows features with intelligent home automation. Specifically, it shows how you can use Cortana and Bluetooth Low Energy (Bluetooth LE) to create an interactive experience with the Phillips Hue Lights (a Wi-Fi enabled lighting system). 
 
-[Traffic app](https://github.com/Microsoft/Windows-appsample-trafficapp)
+With Cortana integration, users are able to naturally interact with the lights through speech. They can turn the lights off, change their color, or even engage with Cortana in a back-and-forth conversation to adjust a specific light or change all the lights at once.
+
+![](https://github.com/Microsoft/Windows-appsample-huelightcontroller/raw/master/Screenshots/Connecting.png)
+
+Additionally, through Bluetooth LE, the app supports a proximity scenario where the lights are automatically turned on/off depending on a user's device relative to a Bluetooth LE beacon. 
+
+-    Using the HttpClient methods and Newtonsoft.json to interact with the Hue lights' RESTful interface.
+-    Extending Cortana to provide an intuitive voice interface for manipulating the lights.
+-    Using BLE APIs in the background to watch for a BLE beacon indicating proximity to the lights.
+-    Showing an extended splash screen for more time while the app connects to the Hue hub and searches for lights.
 
 
-[Network helper](https://github.com/Microsoft/Windows-appsample-networkhelper)
+[Traffic app](https://github.com/Microsoft/Windows-appsample-trafficapp) and the [MVVM Version](https://github.com/Microsoft/Windows-appsample-trafficapp/tree/MVVM)
+
+Traffic App is a sample Universal Windows Platform (UWP) app for commuters to track drive times to various locations. The user adds frequently-visited destinations using app-bar buttons or by tapping and holding on the map. Traffic App then provides a quick view into how long it will take to drive to each place from the user’s current location, following the fastest route. The user can also flag a particular destination and a background task will periodically monitor traffic to that location, alerting the user when traffic is adding ten minutes or more to the travel time. 
+
+![](https://github.com/Microsoft/Windows-appsample-trafficapp/raw/MVVM/Images/TrafficApp.png)
+
+-    MapControl and MapItemsControl (Windows.UI.Xaml.Controls.Maps)
+-    Geolocator (Windows.Devices.Geolocation)
+-    MapLocationFinder and MapRouteFinder (Windows.Services.Maps)
+-    Background tasks (Windows.ApplicationModel.Background)
+-    Toast notifications (Windows.UI.Notifications)
+-    Local storage and serialization (Windows.Storage)
+
+[Network helper](https://github.com/Microsoft/Windows-appsample-networkhelper) NetworkHelper library and Quiz Game
+
+NetworkHelper is a sample library that demonstrates the use UWP networking APIs to enable network discovery and communication in your games or apps. Specifically, the library provides the ability for:
+
+-    Wi-Fi network discovery and management peer clients over a local Wi-Fi network.
+-    Direct communication between discovered devices on the same Wi-Fi network with developer configurable messages.
+
+![](https://github.com/Microsoft/Windows-appsample-networkhelper/raw/master/Screenshots/QuizGame_JoinGame_scaled.png)
+![](https://github.com/Microsoft/Windows-appsample-networkhelper/raw/master/Screenshots/QuizGame_GameInProgress_scaled.png)
+
+QuizGame is a Universal Windows Platform (UWP) app sample that uses the NetworkHelper library to enable a pub-style trivia game. When running the sample, you are presented with an option to create a new game as a quiz master on your local network or join an existing game and answer questions from the quiz master. Questions appear on the quiz master's screen while players answer the questions on their own devices. A quiz master can advance the game to additional questions and display the scores at the end. Below are some features that QuizGame uses.
+
+-    Simple MVVM (Model, View, ViewModel) coding pattern
+-    Simple navigation using code-behind files.
+-    NetworkHelper to enable discovery and broadcasting of available games on the local network.
+-    NetworkHelper to enable communication between the game and players.
 
 
 [Marble Maze](https://github.com/microsoft/Windows-appsample-marble-maze)
 
+Marble Maze is a sample Universal Windows Platform (UWP) and DirectX app that demonstrates how to build a basic 3D game using DirectX. This game is a simple labyrinth game where the player is challenged to roll a marble through a maze of pitfalls using tilt controls.
+
+This sample is written in C++ and requires some experience with graphics programming and DirectX. Complete content that examines this code can be found at Developing Marble Maze, a game in C++ and DirectX.
+
+![](https://i-msdn.sec.s-msft.com/en-us/windows/uwp/gaming/images/marblemaze.png)
+
+
+-    Incorporating the Windows Runtime into your DirectX game
+-    Using DirectX to render 3D graphics for display in a game
+-    Implementing simple vertex and pixel shaders with HLSL
+-    Developing simple physics and collision behaviors in a DirectX game
+-    Handling input from accelerometer, touch, and mouse, and game controller with the Windows Runtime and XInput
+-    Playing and mixing sound effects and background music with XAudio2
+
+See Also: [Developing Marble Maze, a UWP game in C++ and DirectX](https://msdn.microsoft.com/windows/uwp/gaming/developing-marble-maze-a-windows-store-game-in-cpp-and-directx)
 
 [Office 365 code samples](http://dev.office.com/code-samples) integrating Office 365 data and services into your app
 
