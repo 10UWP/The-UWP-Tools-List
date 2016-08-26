@@ -201,6 +201,7 @@ See Also: [Developing Marble Maze, a UWP game in C++ and DirectX](https://msdn.m
 
 Note to add some actual Tools that might be handy for UWP development.
 
+[IconCreatorForUWP](https://github.com/JuniperPhoton/IconCreatorForUWP) IconCreator helps you (developers) create icons of you UWP apps. Just simply import your .png icon file and click the start button. 
 
 # Frameworks
 
@@ -326,15 +327,15 @@ For some reason Windows Composition is missing in action for this kit. IMO, both
 
 Controls:
 
-    AdaptiveGridView
-    HamburgerMenu
-    HeaderedTextBlock
-    ImageEx
-    PullToRefreshListView
-    RadialGauge
-    RangeSelector
-    RotatorTile
-    SlideableListItem
+-    AdaptiveGridView
+-    HamburgerMenu
+-    HeaderedTextBlock
+-    ImageEx
+-    PullToRefreshListView
+-    RadialGauge
+-    RangeSelector
+-    RotatorTile
+-    SlideableListItem
 
 
 [UniversalMarkdown](https://github.com/QuinnDamerell/UniversalMarkdown) A markdown parsing and rendering library for C# and Windows Universal Apps http://baconit.quinndamerell.com/ Universal Markdown is your one-stop-shop for all of your markdown needs in C#. Universal markdown was built for the open source reddit app Baconit, but hopefully it will be adopted by others and improved by the community. 
@@ -381,6 +382,10 @@ Controls:
 
 [WinRT_Calendar](https://github.com/bak301/WinRT_Calendar)
 
+[FABExt.UWP](https://github.com/JuniperPhoton/FABExt.UWP) A FAB-like control on Windows.
+
+
+
 # UI
 [ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
 
@@ -389,6 +394,8 @@ Controls:
 [BlendrocksToolkit](https://github.com/deanihansen/BlendrocksToolkit) Windows UWP toolkit that which enabled insanely cool page transitions and easier navigation and app handling.
 
 [Monolith](https://github.com/ThatLousyGuy/Monolith) Monolith is a Windows library that lets you create animations in codebehind in a fluent, somewhat straightforward manner. It's a wrapper around the Windows.UI.Xaml.Media.Animation library that removes as much of the setup as possible. (Thanks to [Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) for the head's up on this interesting project.
+
+[MonolithUWP](https://github.com/JuniperPhoton/MonolithUWP) A UWP version of Monolith,which is a Windows library that lets you create animations in codebehind in a fluent, somewhat straightforward manner.
 
 [WindowsStateTriggers](https://github.com/dotMorten/WindowsStateTriggers) A collection of custom visual state triggers
 
@@ -443,6 +450,16 @@ Libraries that may support UWP specific features.
 The need for it to be basic comes from the fact that the Windows Store apps API surface area intentionally limited for very specific applications. This project came out of the fact that porting NLog to Windows Store apps is difficult because of it's incredibly rich feature set, most of which is not workable in Windows Store apps.
 
 [WinRTTimeZones](https://github.com/onovotny/WinRTTimeZones) Simple Time Zone conversion for WinRT, Windows Store and Windows Phone 8 apps
+
+[SLARToolkit - Silverlight and Windows Phone Augmented Reality Toolkit](https://github.com/amoldeshpande/slartoolkit) UWP adaptation from [CodePlex](https://slartoolkit.codeplex.com/) This is an incomplete port of SLArToolkit for Windows 10 UWP. 
+![](http://download-codeplex.sec.s-msft.com/Download?ProjectName=SLARToolkit&DownloadId=233583)
+I have added the capability to capture video for UWP apps, which was the major hurdle. Beginners Guide version for Windows 10 almost works, except for camera rotation being off by 90 degrees. 
+
+[ModuloLib](https://github.com/amoldeshpande/ModuloLib) This is a C# Windows 10 UWP class library for the Modulo platform (http://www.modulo.co) It contains basic serial communication as well as classes for interaction with the Display, Knob and Joystick modulos. (Modulo is a set of tiny modular circuit boards that you can assemble to build powerful programmable electronics without needing to design and assemble circuits from scratch.)
+
+[UwpLib](https://github.com/romagny13/UwpLib) Misc UWP 
+
+[JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) 
 
 # Libs General
 
@@ -569,7 +586,7 @@ Opinionated Note: There is a lot of scaffolding issues to consider for testing U
 
 
 
-# Samples
+# Samples for Reference or Learning
 
 
 [Windows-universal-samples](https://github.com/Microsoft/Windows-universal-samples) Official API samples for the Universal Windows Platform.
@@ -585,4 +602,23 @@ Opinionated Note: There is a lot of scaffolding issues to consider for testing U
 There are lots of UWP App samples but most of them look like crap either because they are meant to demo a Windows 10 UWP feature or else total lack of aesetic sense. This section will give you some hope that one day the Windows Store won't be full of junk.
 
 [Baconit](https://github.com/QuinnDamerell/Baconit) A beatiful, powerful, reddit client for Windows 10. https://www.reddit.com/r/BaconitDev/ The highest rated reddit client for Windows Phone has been rewritten from the ground up and is now available for all Windows 10 devices. Now with a dynamic new UI, faster speeds, and features you have been asking for. Welcome to the new Baconit. We know you’re going to love it.
+
+[MyerSplash](https://github.com/JuniperPhoton/MyerSplash) Claims to be "the best looking Wallpaper App" [here](http://juniperphoton.net/myersplash/) so let me know if you agree. An UWP app that allows you to browse and download high-quality wallpaper from Unsplash.com. To compile the project, please include [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) which is the lib I am developing to the solution. 
+
+# Samples That Don't Know They are Samples
+
+### Any UWP App on GitHub
+
+These are essentially a samples of something or other since OSS is there to be studied. Will try to list anything I come across.
+
+[UWPCMS](https://github.com/sunilmusinada/UWPCMS) no description
+
+[Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog
+
+[PlantSitter](https://github.com/JuniperPhoton/PlantSitter) An UWP app that can monitor your plant's growing status in real time and provide you some advice. http://juniperphoton.net/plantsitter
+
+[FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
+
+
+
 
