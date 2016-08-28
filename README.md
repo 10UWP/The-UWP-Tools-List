@@ -618,6 +618,14 @@ There are lots of UWP App samples but most of them look like crap either because
 
 These are essentially a samples of something or other since OSS is there to be studied. Will try to list anything I come across.
 
+[MultiTimer](https://github.com/KvnSmith212/MultiTimer) UWP timer app that allows for creation of many timers.
+
+[Flavordex Tasting Journal](https://github.com/ultramega/flavordex-uwp) Flavordex Tasting Journal for The Universal Windows Platform http://flavordex.com/ [Windows Store](https://www.microsoft.com/store/apps/9nblggh5rhrx)
+
+[CameraUWP](https://github.com/javieresc97/CameraUWP) Uwp app that uses emotion API
+
+[MasterPasswordUWP](https://github.com/papricasix/MasterPasswordUWP) Tool for managing stateless passwords for Windows (UWP). Based on: https://github.com/Lyndir/MasterPassword (Master Password is an algorithm and Java/iOS application to solve the real trouble with passwords.http://masterpasswordapp.com/)
+
 [UWPCMS](https://github.com/sunilmusinada/UWPCMS) no description
 
 [Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog
@@ -625,6 +633,12 @@ These are essentially a samples of something or other since OSS is there to be s
 [PlantSitter](https://github.com/JuniperPhoton/PlantSitter) An UWP app that can monitor your plant's growing status in real time and provide you some advice. http://juniperphoton.net/plantsitter
 
 [FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
+
+# Games
+
+[Orchi's Isle, The Adventure Begins](https://github.com/orchidwarestudios/orchis-isle-uwp) Whimsical, exciting adventure game for Windows 10 devices. This project creates a 2D video game for the Universal Windows Platform (UWP). It can be played on a Windows 10 PC/Tablet. The code is written using DirectX 11, C++, and XAML. The code is currently compatible with Windows 10 desktop, tablet devices, and the XBox One console. It will not be optimized for Windows 10 phone devices.
+
+[DotaTournamentHub](https://github.com/davidmikh/DotaTournamentHub) A UWP app that displays information about Dota 2 Tournaments & Leagues
 
 
 # End of the List
