@@ -632,7 +632,6 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 [Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog
 
-[PlantSitter](https://github.com/JuniperPhoton/PlantSitter) An UWP app that can monitor your plant's growing status in real time and provide you some advice. http://juniperphoton.net/plantsitter
 
 [FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
 
@@ -646,6 +645,13 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 # End of the List
 
 If you have made it to the end of the list, here we have the weird and the wonderful and the questionables, just like the old maps for mariners that showed Sea Monsters at the Ends of the Earth
+
+# Interfacing with Plants
+
+[PlantSensor](https://github.com/ms-iot/PlantSensor) digiPlant is a Universal Windows Platform app that helps users monitor their plant. The app collects and displays tempoerature, brightness, and soil moisture data from various sensors. It runs on a Raspberry Pi and Windows 10 IoT Core. The Twitter page is currently a work in progress.
+
+[PlantSitter](https://github.com/JuniperPhoton/PlantSitter) An UWP app that can monitor your plant's growing status in real time and provide you some advice. http://juniperphoton.net/plantsitter
+
 
 # Pokemon on UWP
 
