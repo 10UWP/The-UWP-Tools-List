@@ -627,5 +627,37 @@ These are essentially a samples of something or other since OSS is there to be s
 [FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
 
 
+# End of the List
+
+If you have made it to the end of the list, here we have the weird and the wonderful and the questionables, just like the old maps for mariners that showed Sea Monsters at the Ends of the Earth
+
+# Pokemon on UWP
+
+[PoGo](https://github.com/PoGo-Devs/PoGo) UWP Client for Pokemon Go http://www.pogo-uwp.tk
+
+[PoGo-3D-Assets](https://github.com/PoGo-Devs/PoGo-3D-Assets) 3D-Pokemon Models for PoGo-UWP-If you want to help check out the issues and make a coment on what you are working.
+
+[PoGo-UWP](https://github.com/ST-Apps/PoGo-UWP) PoGo for Windows 10 You can find the installation file for PoGo in Releases. Please read the whole release information before installing.[wiki](https://github.com/ST-Apps/PoGo-UWP/wiki/Home-(EN))
+
+[PokemonGoStat](https://github.com/thegamenicorus/PokemonGoStat) C# class library used to calculate Pokemon Stats in Pokemon Go game
+
+[PokemonGoChina](https://github.com/Afanyiyu/PokemonGoChina) This is China customised version of Pokemon Go UWP. It using the Windows anniversary SDK (10.0.14393). 
+
+[UWP Pokedex](https://github.com/CuriousCurmudgeon/uwp_pokedex) Simple UWP pokedex app for my Intro to UWP talk at Richmond Tech
+
+[TU6](https://github.com/pogodevorg/TU6) For the curious, this effort appears to be the origin of 3rd party Pokemon Go interfacing. "A repository to show what was done and achieved over a 3.5 day sleepless community hackathon"
+
+[PokemonGoMap](https://github.com/tommyinb/PokemonGoMap) A C# map project
+
+[PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map) For the curious, this is Python, but surely you need to know if any dangerous Pokemons are lurking about in your neighborhood! -> Live visualization of all the pokemon in your area... and more!
+
+![](https://camo.githubusercontent.com/61d585e7706d136694f50ed2a092661b203a0a5d/687474703a2f2f70676d2e72656164746865646f63732e696f2f656e2f6c61746573742f5f696d616765732f636f7665722e706e67)
+
+
+
+
+[]()
+
+
 
 
