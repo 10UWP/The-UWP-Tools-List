@@ -616,7 +616,9 @@ There are lots of UWP App samples but most of them look like crap either because
 
 ### Any UWP App on GitHub
 
-These are essentially a samples of something or other since OSS is there to be studied. Will try to list anything I come across.
+These are essentially samples of something or other that could be illuminating, since any OSS is there to be studied like an open book.
+
+I will try to list anything I come across. (Just in case is isn't obvious, there are hundreds of UWP apps on GitHub, so in theory there will eventually be hundreds listed in this section since for the most part my curation is limited to not listing empty or obviously out of date projects. If it gets to that, I will make a separate page. For now, the list is short because my priority is Data, Graphics and UI projects and the selection here is just random chance.
 
 [MultiTimer](https://github.com/KvnSmith212/MultiTimer) UWP timer app that allows for creation of many timers.
 
