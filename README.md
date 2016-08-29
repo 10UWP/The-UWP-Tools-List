@@ -1,4 +1,4 @@
-# The-UWP-Tools-List
+#  :ballot_box_with_check: The-UWP-Tools-List
 
 UWP - Universal Windows Platform for Windows 10 Desktop, Windows 10 Tablets, Windows 10 Mobile Phones, Windows 10 Pixelsense, Windows 10 IOT, Windows Server, Windows 10 HoloLens, and Windows 10 Xbox.
 
@@ -203,19 +203,7 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [IconCreatorForUWP](https://github.com/JuniperPhoton/IconCreatorForUWP) IconCreator helps you (developers) create icons of you UWP apps. Just simply import your .png icon file and click the start button. 
 
-# Frameworks
 
-[MVVM-Sidekick](https://github.com/waynebaby/MVVM-Sidekick) A Modern light-weight MVVM framework based on RX and Await
-
-[MugenMvvmToolkit](https://github.com/MugenMvvmToolkit/MugenMvvmToolkit) Mugen MVVM Toolkit makes it easier to develop cross-platform application using the Model-View-ViewModel design pattern. The Mugen MVVM Toolkit makes extensive use of Portable Class Libraries to provide maintainable cross platform C# native applications.
-
-[mvvmlight](https://github.com/timdetering/mvvmlight) Git mirror of GalaSoft MVVM Light Toolkit (https://mvvmlight.codeplex.com/)
-
-[Prism](https://github.com/PrismLibrary/Prism) Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
-
-[Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability. http://caliburnmicro.com/
-
-[Okra App Framework](https://github.com/OkraFramework/Okra.Core) The Okra App Framework is designed to support the development of .Net Windows Store applications, in particular those following the MVVM pattern. http://okraframework.github.io
 
 # Database
 
@@ -265,6 +253,12 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 [ObservableSettings](https://github.com/joseangelmt/ObservableSettings) Create a Settings class for UWP (Universal Windows Platform) that is observable, strongly typed and with default values.
 
 [DynamicDataTemplate](https://github.com/kompiuter/DynamicDataTemplate) An example of how to dynamically select a data template based on the data type of an item, including examples in WPF & UWP.
+
+[DevKit Xamarin Storage](https://github.com/rcervantes-dev/DevKit.Xamarin.Storage) DevKit Xamarin Storage is a library to save data serialized in local files, supported platforms: iOS, Android and UWP.
+
+[DiscToolsUWP](https://github.com/DevTheo/DiscToolsUWP) no description, has DiscToolsLibUWP
+
+[PCLStorage](https://github.com/dsplaisted/PCLStorage) PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Windows Phone, Windows Store, Xamarin.iOS, Xamarin.Android, and Silverlight. This makes it easier to create cross-platform .NET libraries and apps.
 
 # Templates
 
@@ -317,6 +311,20 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 [CompositionAPI](https://github.com/agangal/CompositionAPI)
 
+# Frameworks
+
+[MVVM-Sidekick](https://github.com/waynebaby/MVVM-Sidekick) A Modern light-weight MVVM framework based on RX and Await
+
+[MugenMvvmToolkit](https://github.com/MugenMvvmToolkit/MugenMvvmToolkit) Mugen MVVM Toolkit makes it easier to develop cross-platform application using the Model-View-ViewModel design pattern. The Mugen MVVM Toolkit makes extensive use of Portable Class Libraries to provide maintainable cross platform C# native applications.
+
+[mvvmlight](https://github.com/timdetering/mvvmlight) Git mirror of GalaSoft MVVM Light Toolkit (https://mvvmlight.codeplex.com/)
+
+[Prism](https://github.com/PrismLibrary/Prism) Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
+
+[Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability. http://caliburnmicro.com/
+
+[Okra App Framework](https://github.com/OkraFramework/Okra.Core) The Okra App Framework is designed to support the development of .Net Windows Store applications, in particular those following the MVVM pattern. http://okraframework.github.io -  [Okra.Platform.UniversalWindows](https://github.com/OkraFramework/Okra.Platform.UniversalWindows) provides platform specific code for developing Okra App Framework based UWP applications
+
 # Controls
 
 [UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Microsoft has assembled a few Controls, many of them from other projects on this list, and other misc helper libs for UWP programming. At the moment, it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their [Developer website](https://developer.microsoft.com/en-us/windows/samples). The [UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this [Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a [Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see exactly what is in the kit. 
@@ -346,6 +354,7 @@ Controls:
 
 [Mntone WinRT Library](https://github.com/mntone/WinRtLibrary) This is my useful library for UWP and Windows Store app - UI.Xaml.Controls - TypedDataTemplateSelector - VisualTreeHelper2
 
+[UWP-master](https://github.com/zmtzawqlp/UWP-master)Some controls such as FlexGrid, DataGrid, Charts etc.
 
 [Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
 
@@ -384,7 +393,7 @@ Controls:
 
 [FABExt.UWP](https://github.com/JuniperPhoton/FABExt.UWP) A FAB-like control on Windows.
 
-
+[QuickReturnHeader](https://github.com/pdehne/QuickReturnHeader) Universal Windows Platform (UWP) quick return header control to be used with ListViews - Add the QuickReturnHeader class to your project. Then define a regular ListView and add a QuickReturnHeader to its header. Make sure to tell the header which ListView it belongs to using the TargetListView property:
 
 # UI
 [ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
@@ -461,12 +470,20 @@ I have added the capability to capture video for UWP apps, which was the major h
 
 [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) 
 
+[Aura.Net](https://github.com/Lukasss93/Aura.Net) Utilities Class Library for Windows Phone 8.1 RT & UWP
+
+# Libs to access an API
+
+[DeviantartApi Library](https://github.com/Mr1Penguin/DeviantartApi) DeviantartApi Library in C# for UWP, Win8.1, WinPhone8.1,. NET 4.5+, ASP.NET Core 1.0
+
+[Bex](https://github.com/ScottIsAFool/Bex) A PCL for accessing the MS Health Web APIs. For usage and an overview, please go to http://metronuggets.com/2015/07/10/introducing-bex-a-pcl-library-for-the-ms-health-apis/
+
 # Libs General
 
 Libraries that are compatible with UWP but don't provide UWP specific feature support.
 
 
-[Bex](https://github.com/ScottIsAFool/Bex) A PCL for accessing the MS Health Web APIs. For usage and an overview, please go to http://metronuggets.com/2015/07/10/introducing-bex-a-pcl-library-for-the-ms-health-apis/
+
 
 [Shim](https://github.com/cureos/shim) Shim provides reduced or dummy implementations of .NET Framework types that are currently not represented in PCL, thereby expanding the ability to create Portable Class Libraries from legacy code.
 
@@ -480,7 +497,7 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 
 [Polly](https://github.com/App-vNext/Polly) Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
 
-[PCLStorage](https://github.com/dsplaisted/PCLStorage) PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Windows Phone, Windows Store, Xamarin.iOS, Xamarin.Android, and Silverlight. This makes it easier to create cross-platform .NET libraries and apps.
+
 
 [PCLCrypto](https://github.com/AArnott/PCLCrypto) PCLCrypto is an open source library that provides portable class library authors with cryptographic APIs that invoke platform-specific crypto automatically.
 
@@ -604,9 +621,23 @@ Opinionated Note: There is a lot of scaffolding issues to consider for testing U
 
 [Windows-appsample-quizgame](https://github.com/Microsoft/Windows-appsample-quizgame) A peer-to-peer trivia game sample for the Universal Windows Platform (UWP). 
 
+[UWP Custom Control Example](https://github.com/almirvuk/UWPCustomControlExample) In this tutorial I will demonstrate how to make your own custom control for Universal Windows Platform application. This is very handy way of making your app more modular and responsive. For this tutorial I will make "Speaker" control, for some of our conference or event App. 
+
+[InkToolbar and Custom Dry Ink](https://github.com/mscherotter/InkToolbarAndCustomDryInk) Windows UWP Sample that demonstrate how to use the InkToolbar Control with a custom Dry Ink CanvasControl
+
+    Implementing custom dry mode for ink
+    Drawing ink using Win2D and effects
+    Implementing ink erasing with the InkToolbar control with custom dry Ink
+    Adding a custom button to the InkToolbar
+    Rendering Win2D to be used in a Share contract
+    Simultaneous pen and touch with the ScrollViewer control
+
+
 # Samples That Don't Hurt Your Eyeballs
 
 There are lots of UWP App samples but most of them look like crap either because they are meant to demo a Windows 10 UWP feature or else total lack of aesetic sense. This section will give you some hope that one day the Windows Store won't be full of junk.
+
+[Kliva](https://github.com/AppCreativity/Kliva) "Thanks to Kliva, you'll now be able to get a detailed overview of all your sport endevaours and the data that goes with it." - Featured at Build 2016 in session:  ["Creating Beautiful UX in a Real-World App with Visuals, Animations and Effects"](https://channel9.msdn.com/Events/Build/2016/B818) with this branch of the code: https://github.com/AppCreativity/Kliva/tree/alcatraz
 
 [Baconit](https://github.com/QuinnDamerell/Baconit) A beatiful, powerful, reddit client for Windows 10. https://www.reddit.com/r/BaconitDev/ The highest rated reddit client for Windows Phone has been rewritten from the ground up and is now available for all Windows 10 devices. Now with a dynamic new UI, faster speeds, and features you have been asking for. Welcome to the new Baconit. We know you’re going to love it.
 
@@ -634,6 +665,22 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 
 [FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
+
+[UWP Battery Tester](https://github.com/ugur2323/UWP-Battery-Tester)
+
+[WeatherOrNot](https://github.com/TracyDa/WeatherOrNot) UWP weather app
+
+[VideoCapture Universal App](https://github.com/pre10der89/VideoCapture) VideoCapture Universal App for Windows 8.1 and Windows UWP
+
+[pegelalarm-uwp](https://github.com/hoenic07/pegelalarm-uwp) The Pegelalarm app for Windows 10. When the project reaches a "beta" state it will also reach the Windows Store. You can find more information about the Pegelalarm project here: http://pegelalarm.at/
+
+[WeatherApplication](https://github.com/HeinPauwelyn/WeatherApplication) UWP project with MVVM, API's and IoC
+
+[Flantter.MilkyWay](https://github.com/cucmberium/Flantter.MilkyWay) Flantter.MilkyWay is twitter client for UWP and 3rd generation of Flantter. http://cucmber.net/flantter/
+
+[Unigram](https://github.com/ikarago/Unigram) Unigram – An Universal take on Telegram. Made by the community, for the community.   Windows 10 (Mobile) introduced with the Universal Windows Platform a whole list of features to make your (chatting) life easier. However, the current official Telegram-app has no signs of releasing an UWP-version with these capabilities soon. That’s why we decided to build our own.
+
+[NASA App](https://github.com/nikitakonan/NASAapp) UWP Nasa application
 
 # Games
 
@@ -678,7 +725,7 @@ If you have made it to the end of the list, here we have the weird and the wonde
 
 
 
-[]()
+
 
 
 
