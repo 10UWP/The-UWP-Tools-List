@@ -296,6 +296,8 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 # Composition
 
+Note: Composition is part of the Windows API since 10586 and it should just get used. It is part of the solution to the many WPF performance complaints from Vista days. Another large issue from those days was 3D interop with DirectX and here I am not seeing any projects exploring Windows.UI.Composition and DirectX. Anyone? There is this project: [DirectCompositionDirectX12Sample](https://github.com/PJayB/DirectCompositionDirectX12Sample)
+
 [Windows UI Dev Labs](https://github.com/Microsoft/WindowsUIDevLabs) (Previously was [Windows.UI.Composition WinRT API](https://github.com/Microsoft/composition) ) Windows UI Dev Labs the place for getting the latest code samples and demos using Windows.UI.Xaml and Windows.UI.Composition to make beautiful Universal Windows Platform applications. - Welcome to the Windows UI Dev Labs repository for the latest code samples, demos, and developer feedback for building beautiful and engaging Universal Windows Platform apps using Windows UI. The code samples and demos are targeted for developers who are interested in experimenting, building, and providing feedback on the latest flighting Windows UI APIs.
 
 We are focused on creating a place where we can experiment, inpsire, and receive developer feedback on:
@@ -390,6 +392,8 @@ Behavior:
 [Composition Animation Toolkit](https://github.com/aL3891/CompositionAnimationToolkit) The Composition animation toolkit is a set of tools that is ment to make working with animations in the Windows.Ui.Composition libraries easier. Specifically, it allows users to write animation expressions using statically typed lambda expressions instead of strings. It also has features to make working with property sets easier, such as providing a wrapper that user classes can derive from to make static properties for the contents in the property set, as well as generating property sets from any other class, including anonymous classes.
 
 [CompositionImageLoader](https://github.com/robmikh/compositionimageloader) An image loader to use with the Windows.UI.Composition api based on Win2D and written with C#.
+
+[CompositionBlendEffect](https://github.com/cyrilcathala/CompositionBlendEffect) Simple blend effect with Windows.UI.Composition
 
 
 # Frameworks
@@ -640,6 +644,12 @@ https://github.com/sharpdx/SharpDX
 [SharpDXTutorials](https://github.com/mrjfalk/SharpDXTutorials) Code for my SharpDX Tutorials at www.johanfalk.eu.
 
 [SharpDX D3D12 Hello World](https://github.com/RobyDX/SharpDX_D3D12HelloWorld)  DirectX12 Hello World samples created with SharpDx and C# http://www.notjustcode.it - This sample are porting of original D3D12 Hello World realised by Microsoft. I've converted this samples in C# using last version of SharpDx and [DirectX11 Tutorial](https://github.com/RobyDX/SharpDX_Demo) This is a collection of demos that show how to use DirectX11 tecnology with SharpDX library (http://sharpdx.org/) and C# in .Net 4.5 platform Every source want to be as easy as possible to give attention to the arguments of each one.
+
+
+[DirectCompositionDirectX12Sample](https://github.com/PJayB/DirectCompositionDirectX12Sample) A demonstration of DirectComposition and DirectX 12 interoperability - This sample demonstrates how to implement DirectComposition alongside DirectX 12. DirectComposition allows you to efficiently composite your rendered scene onto other windows using hardware acceleration.  For more information, see:
+- [MSDN page for DirectComposition](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437371(v=vs.85).aspx)
+- [Tutorial](http://blog.pjblewis.com/efficient-alpha-blended-windows-directcomposition/)
+- This sample is based on Microsoft's [D3D12HelloTexture sample](https://github.com/Microsoft/DirectX-Graphics-Samples). 
 
 [SDL2](https://libsdl.org/) "Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D." There is suppossed to be a UWP port of SDL somewhere at https://libsdl.org/ but I haven't found it. I was also given this link: https://github.com/emscripten-ports/SDL2 - At the moment there is no feeback on how robust this support is and how well in interacts with Windows Composition etc. 
 
