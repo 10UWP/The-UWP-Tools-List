@@ -1,3 +1,6 @@
+Note: A lot of volunteer effort by individuals supporting the UWP Platform is repesented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list,please let me know.
+
+
 #  :ballot_box_with_check: The-UWP-Tools-List
 
 UWP - Universal Windows Platform for Windows 10 Desktop, Windows 10 Tablets, Windows 10 Mobile Phones, Windows 10 Pixelsense, Windows 10 IOT, Windows Server, Windows 10 HoloLens, and Windows 10 Xbox.
@@ -636,6 +639,8 @@ Opinionated Note: There is a lot of scaffolding issues to consider for testing U
 # Samples That Don't Hurt Your Eyeballs
 
 There are lots of UWP App samples but most of them look like crap either because they are meant to demo a Windows 10 UWP feature or else total lack of aesetic sense. This section will give you some hope that one day the Windows Store won't be full of junk.
+
+This is an important category so I will really appreciate suggestions by anyone including the authors for any UWP Apps that I can add to this sub-list.
 
 [Kliva](https://github.com/AppCreativity/Kliva) "Thanks to Kliva, you'll now be able to get a detailed overview of all your sport endevaours and the data that goes with it." - Featured at Build 2016 in session:  ["Creating Beautiful UX in a Real-World App with Visuals, Animations and Effects"](https://channel9.msdn.com/Events/Build/2016/B818) with this branch of the code: https://github.com/AppCreativity/Kliva/tree/alcatraz
 
