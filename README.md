@@ -206,6 +206,9 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [IconCreatorForUWP](https://github.com/JuniperPhoton/IconCreatorForUWP) IconCreator helps you (developers) create icons of you UWP apps. Just simply import your .png icon file and click the start button. 
 
+[AppxInstaller](https://github.com/aL3891/AppxInstaller) This repostitory was created in respose to some misconceptions and incorrect information about the universal windows platform (UWP) apps, specifically with regards to their dependency on the windows store and suppsed inability to be distributed outside it. This folder contains a powershell script, Generate-AppxMsi.ps1, that packages an appx file into an msi. It will also embed an installation script that will enable sideloading in the registry, trust the application cert if it is not already trusted and deploy the application. Currently this script is a proof of concept with hardcoded values, but later on it will be able to wrap any appx or appx bundle like this and read all the relevant information from the package directly. Appx installer is a file handler for appx files. Using it, when a appx file is double clicked, a window is shown with information about the app. The user can then click install to install the app.
+
+
 
 
 # Database
@@ -314,6 +317,8 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 [CompositionAPI](https://github.com/agangal/CompositionAPI)
 
+[Composition Animation Toolkit](https://github.com/aL3891/CompositionAnimationToolkit) The Composition animation toolkit is a set of tools that is ment to make working with animations in the Windows.Ui.Composition libraries easier. Specifically, it allows users to write animation expressions using statically typed lambda expressions instead of strings. It also has features to make working with property sets easier, such as providing a wrapper that user classes can derive from to make static properties for the contents in the property set, as well as generating property sets from any other class, including anonymous classes.
+
 # Frameworks
 
 [MVVM-Sidekick](https://github.com/waynebaby/MVVM-Sidekick) A Modern light-weight MVVM framework based on RX and Await
@@ -398,6 +403,11 @@ Controls:
 
 [QuickReturnHeader](https://github.com/pdehne/QuickReturnHeader) Universal Windows Platform (UWP) quick return header control to be used with ListViews - Add the QuickReturnHeader class to your project. Then define a regular ListView and add a QuickReturnHeader to its header. Make sure to tell the header which ListView it belongs to using the TargetListView property:
 
+[Font-Awesome-WPF/UWP](https://github.com/charri/Font-Awesome-WPF)  WPF & UWP controls for the iconic font and CSS toolkit Font Awesome. Font Awesome: http://fortawesome.github.io/Font-Awesome/ UWP glyph control for the iconic font and CSS toolkit Font Awesome. [UWP Readme](https://github.com/charri/Font-Awesome-WPF/blob/master/README-UWP.md)
+
+[SwipeListView](https://github.com/FrayxRulez/SwipeListView) A ListView with swipe handling like the one in new Outlook Mail app for Windows 10.
+
+
 # UI
 [ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
 
@@ -481,6 +491,8 @@ I have added the capability to capture video for UWP apps, which was the major h
 
 [Bex](https://github.com/ScottIsAFool/Bex) A PCL for accessing the MS Health Web APIs. For usage and an overview, please go to http://metronuggets.com/2015/07/10/introducing-bex-a-pcl-library-for-the-ms-health-apis/
 
+[Discord-UWP](https://github.com/gantonious/Discord-UWP) A Discord wrapper in C# compatible with UWP.
+
 # Libs General
 
 Libraries that are compatible with UWP but don't provide UWP specific feature support.
@@ -524,6 +536,9 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 [MediaFoundation](https://github.com/AndrewGaspar/MediaFoundation) Some helper functions for WinRT for getting media information about some URL
 
 [FFMPEGHelper](https://github.com/krishnan-unni/FFMPEGHelper) Windows 10 Universal WinRT component for FFMPEG library
+
+[Universal.WebP](https://github.com/FrayxRulez/Universal.WebP) This repository contains a Windows Runtime Component that wraps up libwebp and allows to decode static and animated WEBP images.
+
 
 # Graphics 2D
 [Win2D](https://github.com/Microsoft/Win2D) Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C# and C++ developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow. http://microsoft.github.io/Win2D (https://github.com/Microsoft/Win2D-Samples)
@@ -626,6 +641,8 @@ Opinionated Note: There is a lot of scaffolding issues to consider for testing U
 
 [Windows-appsample-quizgame](https://github.com/Microsoft/Windows-appsample-quizgame) A peer-to-peer trivia game sample for the Universal Windows Platform (UWP). 
 
+[UWP-Samples](https://github.com/Myfreedom614/UWP-Samples) Samples for Windows 10 Universal Platform
+
 [UWP Custom Control Example](https://github.com/almirvuk/UWPCustomControlExample) In this tutorial I will demonstrate how to make your own custom control for Universal Windows Platform application. This is very handy way of making your app more modular and responsive. For this tutorial I will make "Speaker" control, for some of our conference or event App. 
 
 [InkToolbar and Custom Dry Ink](https://github.com/mscherotter/InkToolbarAndCustomDryInk) Windows UWP Sample that demonstrate how to use the InkToolbar Control with a custom Dry Ink CanvasControl
@@ -687,7 +704,14 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 [Unigram](https://github.com/ikarago/Unigram) Unigram – An Universal take on Telegram. Made by the community, for the community.   Windows 10 (Mobile) introduced with the Universal Windows Platform a whole list of features to make your (chatting) life easier. However, the current official Telegram-app has no signs of releasing an UWP-version with these capabilities soon. That’s why we decided to build our own.
 
-[NASA App](https://github.com/nikitakonan/NASAapp) UWP Nasa application
+[NASA App](https://github.com/nikitakonan/NASAapp) UWP Nasa applicatio]()
+
+[Elementary](https://github.com/ultramega/elementary-uwp) Elementary is a simple Periodic Table and element reference application for The Universal Windows Platform. Videos provided by Periodic Videos (http://www.periodicvideos.com/)
+-    Zoomable Periodic Table of the Elements
+-    Tap an element to view some basic details
+-    Easy access to Wikipedia and a YouTube video on the element
+-    Free and open source
+
 
 # Games
 
