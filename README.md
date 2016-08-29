@@ -312,6 +312,7 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 
 [WinCompositionBehaviours](https://github.com/ScottIsAFool/WinCompositionBehaviours) A set of behaviours that use the Windows Composition APIs
 
+[UWP audio visulization sample](https://github.com/robmikh/audiovisualization) UWP audio visulization sample. Work in progress.
 
 [Composition Pro Toolkit](https://github.com/ratishphilip/CompositionProToolkit) Collection of Helper classes and controls (using Win2d) for Windows.UI.Composition - CompositionProToolkit is a collection of helper classes for Windows.UI.Composition. It also contains controls which can be used in UWP applications. It has dependency on the Win2D and the CompositionExpressionToolkit libraries.
 
@@ -324,10 +325,17 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 
 [Continuity](https://github.com/JustinXinLiu/Continuity) A project that aims to provide some cool animations, transitions and controls, built on top of the new Windows Composition API.
 
+[EffectsAndAnimationsWinComposition](https://github.com/JustinXinLiu/EffectsAndAnimationsWinComposition) Some experiments on the new effect and animation systems in Windows Composition. Please note that I could simplify things by using the TouchArea Rectangle as the container visual to host the effect visual, but I wanted to prove a point that I could use expression key frame animation to manipulate multiple elements at the same time!
 
-[StickyHeader_WindowsComposition](https://github.com/JustinXinLiu/StickyHeader_WindowsComposition)
+![](https://camo.githubusercontent.com/44a3ce985aed3469edf86e0e7bcd1670fbdc616c/687474703a2f2f692e737461636b2e696d6775722e636f6d2f65574a62472e676966)
 
-[PullToRefreshUWP_WindowsComposition](https://github.com/JustinXinLiu/PullToRefreshUWP_WindowsComposition)
+[StickyHeader_WindowsComposition](https://github.com/JustinXinLiu/StickyHeader_WindowsComposition) Answer to this Stack Overflow question. http://stackoverflow.com/questions/35510825/how-to-check-if-an-ui-element-has-reached-the-top-of-the-page-in-windows-phone
+
+[PullToRefreshUWP_WindowsComposition](https://github.com/JustinXinLiu/PullToRefreshUWP_WindowsComposition) Pull to refresh with the new Windows Composition API.
+
+[Finch](https://github.com/tomzorz/Finch) A library to help you ease into the wonders of Windows.UI.Compositon - Strongly-typed expression animations - Behaviors use effects and features with ease from XAML - Moving the needle from possible to easy with easy-to-use animation API wrapper & easy-to-use effects API wrapper
+
+[Composition fun](https://github.com/tomzorz/Composition_fun) Fun projects with Windows.UI.Composition. Small assorted Windows.UI.Composition projects
 
 [WinCompositionPlayground](https://github.com/WaltRitscher/WinCompositionPlayground)
 
@@ -353,6 +361,28 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 
 [UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
 
+[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform XAML control.Requires Visual Studio 2015 update 1, and Windows 10 10586 SDK. Contains a copy of Microsoft.UI.Composition.Toolkit that is maintained here: https://github.com/Microsoft/composition. A blog post explaining the code is here: https://xamlbrewer.wordpress.com/2016/01/04/using-the-composition-api-in-uwp-apps/.
+
+[UWP-Composition-Rating-Control](https://github.com/XamlBrewer/UWP-Composition-Rating-Control) A UWP Rating Control drawn by the Composition API. There's a blog post explaining the code right here: https://xamlbrewer.wordpress.com/2016/07/11/building-a-uwp-rating-control-using-xaml-and-the-composition-api/ - Comes with the following dependency properties:
+-    Maximum (int): number of stars, maximum score
+-    StepFrequency (double): rounding interval, a percentage (e.g. 0.25)
+-    Value (double): current value (from 0 to Maximum)
+-    ItemHeight (int): height (and width) of each image in device independent pixels
+-    ImagePadding (int): pixels between images
+-   FilledImage (uri): path to the filled image
+-    EmptyImage (uri): path to the empty image
+-    IsInteractive (bool): whether or not the control responds to user input (tapping or sliding)
+
+Behavior:
+- Tap on an image to apply the integral value
+- Slide horizontally over the control to decrease and increase value with StepFrequency
+
+[UWP-Composition-Effects-Sample](https://github.com/XamlBrewer/UWP-Composition-Effects-Sample) An UWP app that illustrates some of the Composition API effects:
+- [Hue Rotation](https://xamlbrewer.wordpress.com/2016/04/08/uwp-composition-effects-hue-rotation/)
+- [Temperature and Tint](https://xamlbrewer.wordpress.com/2016/04/19/uwp-composition-effects-temperature-and-tint/)
+- [Effect chaining](https://xamlbrewer.wordpress.com/2016/05/15/uwp-composition-effects-chaining/)
+
+
 [CompositionHelper](https://github.com/higankanshi/CompositionHelper) CompositionHelper for UWP Composition API. Now we support all animation of Composition API. You can build composition animations by fluent interface. You can use XAML to set UIElement's Visual composition properties. We found there are some Airspace issue between Composition API visual tree and XAML visual tree, so we remove shadow effect, but you can still find those codes in early Commit.
 
 [CompositionAPI](https://github.com/agangal/CompositionAPI)
@@ -360,6 +390,7 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 [Composition Animation Toolkit](https://github.com/aL3891/CompositionAnimationToolkit) The Composition animation toolkit is a set of tools that is ment to make working with animations in the Windows.Ui.Composition libraries easier. Specifically, it allows users to write animation expressions using statically typed lambda expressions instead of strings. It also has features to make working with property sets easier, such as providing a wrapper that user classes can derive from to make static properties for the contents in the property set, as well as generating property sets from any other class, including anonymous classes.
 
 [CompositionImageLoader](https://github.com/robmikh/compositionimageloader) An image loader to use with the Windows.UI.Composition api based on Win2D and written with C#.
+
 
 # Frameworks
 
@@ -755,6 +786,9 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 -    Tap an element to view some basic details
 -    Easy access to Wikipedia and a YouTube video on the element
 -    Free and open source
+
+[TeamSnapV3](https://github.com/agangal/TeamSnapV3) This is a Windows 10 app for TeamSnap (www.teamsnap.com). It uses the APIs that TeamSnap provides to build an app that mirrors TeamSnap's Android and iOS apps.  This is the 3rd revision of the original app I wrote.  It doesn't have all the features yet, and is still a work in progress. Some features are waiting for APIs to be made available. Link to the app : https://www.microsoft.com/en-us/store/apps/dugout/9nblggh5k2jd 
+
 
 
 # Games
