@@ -551,6 +551,8 @@ https://github.com/sharpdx/SharpDX
 
 [SharpDX D3D12 Hello World](https://github.com/RobyDX/SharpDX_D3D12HelloWorld)  DirectX12 Hello World samples created with SharpDx and C# http://www.notjustcode.it - This sample are porting of original D3D12 Hello World realised by Microsoft. I've converted this samples in C# using last version of SharpDx and [DirectX11 Tutorial](https://github.com/RobyDX/SharpDX_Demo) This is a collection of demos that show how to use DirectX11 tecnology with SharpDX library (http://sharpdx.org/) and C# in .Net 4.5 platform Every source want to be as easy as possible to give attention to the arguments of each one.
 
+[SDL2](https://libsdl.org/) "Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D." There is suppossed to be a UWP port of SDL somewhere at https://libsdl.org/ but I haven't found it. I was also given this link: https://github.com/emscripten-ports/SDL2 - At the moment there is no feeback on how robust this support is and how well in interacts with Windows Composition etc. 
+
 [DirectXTK12](https://github.com/Microsoft/DirectXTK12) The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++ https://blogs.msdn.microsoft.com/chuckw/2016/07/18/directx-tool-kit-for-directx-12/
 
 [DirectXTK](https://github.com/Microsoft/DirectXTK) The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++ http://blogs.msdn.com/b/chuckw/archive/2012/03/02/directxtk.aspx
