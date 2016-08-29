@@ -295,11 +295,35 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 [UWP10template](https://github.com/mapaux/UWP10template) UWP template using MVVM pattern
 
 # Composition
-[Windows.UI.Composition WinRT API](https://github.com/Microsoft/composition) We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 1511 the Windows.UI.Composition API is now fully public. Many thanks to all of those who contibuted feedback to on the API during it's preview phase to make it that much better. This repository contains code samples created with the Windows.UI.Composition WinRT API. Samples contained in this repository created by the Microsoft Composition team or contributors
+
+[Windows UI Dev Labs](https://github.com/Microsoft/WindowsUIDevLabs) (Previously was [Windows.UI.Composition WinRT API](https://github.com/Microsoft/composition) ) Windows UI Dev Labs the place for getting the latest code samples and demos using Windows.UI.Xaml and Windows.UI.Composition to make beautiful Universal Windows Platform applications. - Welcome to the Windows UI Dev Labs repository for the latest code samples, demos, and developer feedback for building beautiful and engaging Universal Windows Platform apps using Windows UI. The code samples and demos are targeted for developers who are interested in experimenting, building, and providing feedback on the latest flighting Windows UI APIs.
+
+We are focused on creating a place where we can experiment, inpsire, and receive developer feedback on:
+-    Flighting APIs for Windows UI
+-    Testing out new UX patterns
+-    Early reference implementations and prototypes
+-    Inspiring demonstrations of the Windows UI API
+
+If you are a developer getting familiar with the Windows.UI.Xaml and Windows.UI.Composition APIs, want to build beautiful UI experiences, and don't mind a few bugs here and there; then, this is the place for you. We also want to see what inspiring UX you're building and you can reach out to us on Twitter @WindowsUI. We're excited to see what you can you make with Windows UI.
+
+We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 1511 the Windows.UI.Composition API is now fully public. Many thanks to all of those who contibuted feedback to on the API during it's preview phase to make it that much better. This repository contains code samples created with the Windows.UI.Composition WinRT API. Samples contained in this repository created by the Microsoft Composition team or contributors
 
 [UWPCompositionDemos](https://github.com/clarkezone/UWPCompositionDemos) I work on the Composition team at Microsoft that builds the Windows.UI.Composition APIs for the Universal Windows Platform. This project is where I'll be putting demos of the API's functionality when I get time :-)
 
+[WinCompositionBehaviours](https://github.com/ScottIsAFool/WinCompositionBehaviours) A set of behaviours that use the Windows Composition APIs
+
+
+[Composition Pro Toolkit](https://github.com/ratishphilip/CompositionProToolkit) Collection of Helper classes and controls (using Win2d) for Windows.UI.Composition - CompositionProToolkit is a collection of helper classes for Windows.UI.Composition. It also contains controls which can be used in UWP applications. It has dependency on the Win2D and the CompositionExpressionToolkit libraries.
+
+[CompositionExpressionToolkit](https://github.com/ratishphilip/CompositionExpressionToolkit) A toolkit for setting the Expression in CompositionAnimation via Lambda Expressions - CompositionExpressionToolkit is a collection of Extension methods and Helper classes which make it easier to use Windows.UI.Composition features. They include methods for creating statically typed CompositionAnimation expressions, CompositionPropertySet extension methods, helper methods for creating ScopedBatchSets etc.
+
+[CompositeHomeScreen](https://github.com/ratishphilip/CompositeHomeScreen) A mockup of iPhone home screen created using Windows.UI.Composition API - This project mainly contains a HomeScreen page which hosts the Menu and the subsequent child pages. The main constituents of the HomeScreen page can be see in the image below.
+
+
+[Composition.UI](https://github.com/skendrot/Composition.UI) [Easily Create Parallax effects in Windows 10 apps](http://www.visuallylocated.com/post/2015/12/10/Easy-Parallax-effect-in-Windows-10.aspx)
+
 [Continuity](https://github.com/JustinXinLiu/Continuity) A project that aims to provide some cool animations, transitions and controls, built on top of the new Windows Composition API.
+
 
 [StickyHeader_WindowsComposition](https://github.com/JustinXinLiu/StickyHeader_WindowsComposition)
 
@@ -307,17 +331,35 @@ Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteD
 
 [WinCompositionPlayground](https://github.com/WaltRitscher/WinCompositionPlayground)
 
-[CompositionAnimations](https://github.com/Sergio0694/UICompositionAnimations) A wrapper PCL for the Windows.UI.Composion animations
+[WindowsUI-Samples](https://github.com/r2d2rigo/WindowsUI-Samples) Samples and demos for Windows UI/Composition.
 
 [WinCompositionTiltEffect](https://github.com/r2d2rigo/WinCompositionTiltEffect) A behavior for adding a tilt effect to any UWP control, implemented using Windows Composition.
 
+[CompositionAnimations](https://github.com/Sergio0694/UICompositionAnimations) A wrapper PCL for the Windows.UI.Composion animations
+
+[CompositionAnimationsDemo](https://github.com/renewal-wu/CompositionAnimationsDemo)
+
+[CompositionEntranceAnimationExample](https://github.com/tracker086/CompositionEntranceAnimationExample) no desc.
+
+[CarouselView](https://github.com/pengzhxyz/CarouselView) An UWP carousel control supporting looping and based on composition api
+-    It supports infinite looping scrolling
+-    AutoSwitch supporting
+-    It could show 3 pictures at the same time, rather than filpview which only shows one picture
+-    Responsable to the container size
+-    Touch or mouse wheel
+-    Thanks to the Composition API!
+
+[CompositionGridView](https://github.com/pnp0a03/CompositionGridView) no desc.
+
 [UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
 
-[CompositionHelper](https://github.com/higankanshi/CompositionHelper)
+[CompositionHelper](https://github.com/higankanshi/CompositionHelper) CompositionHelper for UWP Composition API. Now we support all animation of Composition API. You can build composition animations by fluent interface. You can use XAML to set UIElement's Visual composition properties. We found there are some Airspace issue between Composition API visual tree and XAML visual tree, so we remove shadow effect, but you can still find those codes in early Commit.
 
 [CompositionAPI](https://github.com/agangal/CompositionAPI)
 
 [Composition Animation Toolkit](https://github.com/aL3891/CompositionAnimationToolkit) The Composition animation toolkit is a set of tools that is ment to make working with animations in the Windows.Ui.Composition libraries easier. Specifically, it allows users to write animation expressions using statically typed lambda expressions instead of strings. It also has features to make working with property sets easier, such as providing a wrapper that user classes can derive from to make static properties for the contents in the property set, as well as generating property sets from any other class, including anonymous classes.
+
+[CompositionImageLoader](https://github.com/robmikh/compositionimageloader) An image loader to use with the Windows.UI.Composition api based on Win2D and written with C#.
 
 # Frameworks
 
@@ -367,6 +409,8 @@ Controls:
 [Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
 
 [UWP-Radial-Gauge-Sample](https://github.com/XamlBrewer/UWP-Radial-Gauge-Sample) Demonstrates using the WinRT XAML Toolkit Radial Gauge on the Universal Windows Platform
+
+[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/. There's a newer version of this control in the UWP Community Toolkit: https://github.com/Microsoft/UWPCommunityToolkit.
 
 [RadialSlider](https://github.com/galazzo/RadialSlider) A radial Slider for Windows 10 Universal Windows Platform (UWP)
 
