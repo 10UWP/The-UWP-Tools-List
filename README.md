@@ -1,4 +1,4 @@
-Note: A lot of volunteer effort by individuals supporting the UWP Platform is repesented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list,please let me know.
+Note: A lot of volunteer effort by individuals supporting the UWP Platform is represented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list, please let me know.
 
 
 #  :ballot_box_with_check: The-UWP-Tools-List
