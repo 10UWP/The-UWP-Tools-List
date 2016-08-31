@@ -395,6 +395,9 @@ Behavior:
 
 [CompositionBlendEffect](https://github.com/cyrilcathala/CompositionBlendEffect) Simple blend effect with Windows.UI.Composition
 
+[UICompositionExploration](https://github.com/a7an/UICompositionExploration) Exploration of UI Composition or something like that could be hypothesized when there is yet another project with no description. 
+
+
 
 # Frameworks
 
@@ -611,6 +614,8 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 
 [PoolSharp](https://github.com/Yortw/PoolSharp) PoolSharp is a simple, light weight, thread safe object pool. It also supports pooling of disposable types, managing the life time of pooled objects and performing early dispose when possible. Pool implementations implement a simple common interface, so they can be mocked or replaced with alternatives.
 
+[UniversalClassLibrary](https://github.com/Meowtrix/UniversalClassLibrary) Class library for all .NET platforms. (Guessing that Universal actually includes Universal Windows Platform)
+
 # Media
 [MediaFoundation](https://github.com/AndrewGaspar/MediaFoundation) Some helper functions for WinRT for getting media information about some URL
 
@@ -798,6 +803,8 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 -    Free and open source
 
 [TeamSnapV3](https://github.com/agangal/TeamSnapV3) This is a Windows 10 app for TeamSnap (www.teamsnap.com). It uses the APIs that TeamSnap provides to build an app that mirrors TeamSnap's Android and iOS apps.  This is the 3rd revision of the original app I wrote.  It doesn't have all the features yet, and is still a work in progress. Some features are waiting for APIs to be made available. Link to the app : https://www.microsoft.com/en-us/store/apps/dugout/9nblggh5k2jd 
+
+[WA082016](https://github.com/evnik/WA082016) Playing with Windows Universal apps <Award for Most Descriptive App Name> :)
 
 
 
