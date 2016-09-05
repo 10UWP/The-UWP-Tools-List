@@ -215,7 +215,7 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [EntityFramework](https://github.com/aspnet/EntityFramework) Microsoft's recommended data access technology for new applications in .NET. The ONLY UWP option is SQLite and [it is a mess](http://ef.readthedocs.org/en/latest/providers/sqlite/limitations.html). [Getting Started on Universal Windows Platform](http://ef.readthedocs.org/en/latest/platforms/uwp/getting-started.html) (Opinionated Note: "Microsoft's recommended data access technology" has somehow ended up in the damaged situation of SQLite being the ONLY supported target for Microsoft's main thing, the Universal Windows Platform. The insanely stupid SQLite FK mess means that Entity Framework's Magic Unicorn (Migrations) becomes a useless broken technology on the One Microsoft platform that should count as the highest priority effort. UWP without an easy robust Microsoft supported data platform is a Microsoft blind spot that has been a drag on the success of the Win RT platform from the beginning. "You can workaround some of these limitations by manually writing code in your migrations to perform a table rebuild. A table rebuild involves renaming the existing table, creating a new table, copying data to the new table, and dropping the old table. You will need to use the Sql(string) method to perform some of these steps." (https://github.com/aspnet/EntityFramework/issues/329) There is an explanation in this issue: [ESENT database provider](https://github.com/aspnet/EntityFramework/issues/4423) which probably translates to "please hold" for another few months)  
 
-
+### SQLite
 
 [SQLite](http://www.sqlite.org/) SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world. The source code for SQLite is in the public domain. Microsoft uses SQLite as a core component of Windows 10, and in individual numerous products. [System.Data.SQLite](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki) System.Data.SQLite is an ADO.NET provider for SQLite.  Development and maintenance work is now mostly performed by the SQLite Development Team. The SQLite team is committed to supporting System.Data.SQLite long-term. [git mirror of SQLite](https://github.com/mackyle/sqlite) - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "Database Browser for SQLite". Website at: http://sqlitebrowser.org
 
@@ -227,11 +227,29 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [SQLitePCL.pretty](https://github.com/bordoley/SQLitePCL.pretty) This library wraps the C like SQLiteAPI provided by SQLitePCL.raw with a friendly C# object oriented API. It adds an Async API. SQLitePCL.pretty has a very simple table mapping ORM, available in the SQLitePCL.pretty.Orm package on nuget. It supports inserting both new and existing objects, and finding and deleting objects by primary key, from SQLite database tables. Notably, the ORM is designed to make working with immutable data types much easier by supporting the builder pattern for deserializing database objects. Ineresting features include the ability to iterate through query result sets using LINQ, support for binary streaming of data in and out of SQLite using .NET streams, and a powerful async API built on the RX framework."
 
+### ESENT
+
 [ESENT](https://msdn.microsoft.com/EN-US/library/gg269181%28v=exchg.10%29.aspx) Extensible Storage Engine is built into and is available for use on every Windows computer and has been an approved DLL for Windows Store since Windows 8.0. Updates to the database are implemented with a transaction in order to ensure secure operations. ESE enables simultaneous access to multiple databases, including transaction-log file databases that can be used for system recovery. ESE is scalable to large or small applications. [ESENT Managed Interop](https://managedesent.codeplex.com/) it is not clear if the .NET wrapper is UWP compatible."It is clear. ESENT Managed Interop is compatible with UWP. Not all nuget package are, but core Interop package on nuget is compatible with UWP, I tested it myself and it work." Thanks to [Opiumtm](https://github.com/Opiumtm) for testing that.
+
+### BrightStar
 
 [BrightstarDB](https://github.com/BrightstarDB/BrightstarDB) BrightstarDB is a native .NET RDF triple store. It uses dotNetRDF to provide support for a wide range of RDF syntaxes as well as SPARQL query support. In addition to providing a raw RDF-based API, BrightstarDB also provides support for binding RDF resources to .NET dynamic objects; and a contract-first entity framework that enables the use of LINQ rather than SPARQL for query purposes.
 
+### Marcello
+
 [MarcelloDB](https://github.com/markmeeus/MarcelloDB) .net/mono/xamarin/winrt in-process object database. MarcelloDB is a mobile NoSql database. It is very light-weight with minimal memory footprint. MarcelloDB saves plain C# objects, including child objects, lists and collections. Not having to map your objects to the relational model can save you hundreds of lines of code. MarcelloDB is a pure C# implementation, so there is no need to package other binaries.
+
+### DBreeze
+
+
+[DBreeze](https://github.com/hhblaze/DBreeze) - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
+.NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
+
+### LiteDB
+
+[LiteDB](https://github.com/mbdavid/LiteDB) - http://www.litedb.org/-LiteDB - A .NET NoSQL Document Store in a single data file. LiteDB is now functional for UWP via PCL.
+
+### Couchbase
 
 [Couchbase](https://github.com/couchbase/couchbase-lite-net) - http://www.couchbase.com/ - http://developer.couchbase.com/mobile/ - The NoSQL database solution for mobile — everything you need to build always-available apps that work online & offline. Couchbase Lite is
 a fully functional, on-device, lightweight, native, embedded NoSQL database. With Couchbase Lite, you have the full power of a Couchbase database locally on the device. You can create, update, delete, query, sync and much, much more.
@@ -239,13 +257,8 @@ a fully functional, on-device, lightweight, native, embedded NoSQL database. Wit
 #### Note:
 Based on this GitHub issue: https://github.com/couchbase/couchbase-lite-net/issues/535 - Couchbase Lite for .NET will be available soon for UWP. "my goal is to still have it in 2016. After the 1.3 release we are going to assess platform support going forward (including the possibility of dropping some, which would free up time for UWP)."
 
-[LiteDB](https://github.com/mbdavid/LiteDB) - http://www.litedb.org/-LiteDB - A .NET NoSQL Document Store in a single data file
 
-####Note:
-Based on this GitHub issue: https://github.com/mbdavid/LiteDB/issues/146 - LiteDB is coming for UWP but probably not for quite a while.
 
-[DBreeze](https://github.com/hhblaze/DBreeze) - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
-.NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
 
 
 
