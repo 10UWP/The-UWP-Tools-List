@@ -521,7 +521,8 @@ Controls:
 
 Libraries that may support UWP specific features.
 
-[IpatovUWP](https://github.com/Opiumtm/IpatovUWP) UWP common use helper libraries such as util code for DataBinding.
+[IpatovUWP](https://github.com/Opiumtm/IpatovUWP) UWP common use helper libraries such as util code for DataBinding. New, is a Markup rendering engine based on Direct2D instead of XAML tree manipulations. [Nuget: Ipatov.MarkupRender](https://www.nuget.org/packages/Ipatov.MarkupRender/) First public release is very simplistic and not feature rich, but most important feature of this library is very high performance.
+
 
 [Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the [Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
 
