@@ -231,6 +231,9 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [ESENT](https://msdn.microsoft.com/EN-US/library/gg269181%28v=exchg.10%29.aspx) Extensible Storage Engine is built into and is available for use on every Windows computer and has been an approved DLL for Windows Store since Windows 8.0. Updates to the database are implemented with a transaction in order to ensure secure operations. ESE enables simultaneous access to multiple databases, including transaction-log file databases that can be used for system recovery. ESE is scalable to large or small applications. [ESENT Managed Interop](https://managedesent.codeplex.com/) it is not clear if the .NET wrapper is UWP compatible."It is clear. ESENT Managed Interop is compatible with UWP. Not all nuget package are, but core Interop package on nuget is compatible with UWP, I tested it myself and it work." Thanks to [Opiumtm](https://github.com/Opiumtm) for testing that.
 
+[DBreeze](https://github.com/hhblaze/DBreeze) - This has a native UWP DLL and is an *embeddable Database solution for UWP Apps* - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
+.NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
+
 ### BrightStar
 
 [BrightstarDB](https://github.com/BrightstarDB/BrightstarDB) BrightstarDB is a native .NET RDF triple store. It uses dotNetRDF to provide support for a wide range of RDF syntaxes as well as SPARQL query support. In addition to providing a raw RDF-based API, BrightstarDB also provides support for binding RDF resources to .NET dynamic objects; and a contract-first entity framework that enables the use of LINQ rather than SPARQL for query purposes.
@@ -242,8 +245,7 @@ Note to add some actual Tools that might be handy for UWP development.
 ### DBreeze
 
 
-[DBreeze](https://github.com/hhblaze/DBreeze) - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
-.NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
+
 
 ### LiteDB
 
@@ -374,23 +376,11 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 
 [CompositionGridView](https://github.com/pnp0a03/CompositionGridView) no desc.
 
-[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
+[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP 
 
-[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform XAML control.Requires Visual Studio 2015 update 1, and Windows 10 10586 SDK. Contains a copy of Microsoft.UI.Composition.Toolkit that is maintained here: https://github.com/Microsoft/composition. A blog post explaining the code is here: https://xamlbrewer.wordpress.com/2016/01/04/using-the-composition-api-in-uwp-apps/.
+[UWP-Composition-Rating-Control](https://github.com/XamlBrewer/UWP-Composition-Rating-Control) A UWP Rating Control drawn by the Composition API.
 
-[UWP-Composition-Rating-Control](https://github.com/XamlBrewer/UWP-Composition-Rating-Control) A UWP Rating Control drawn by the Composition API. There's a blog post explaining the code right here: https://xamlbrewer.wordpress.com/2016/07/11/building-a-uwp-rating-control-using-xaml-and-the-composition-api/ - Comes with the following dependency properties:
--    Maximum (int): number of stars, maximum score
--    StepFrequency (double): rounding interval, a percentage (e.g. 0.25)
--    Value (double): current value (from 0 to Maximum)
--    ItemHeight (int): height (and width) of each image in device independent pixels
--    ImagePadding (int): pixels between images
--   FilledImage (uri): path to the filled image
--    EmptyImage (uri): path to the empty image
--    IsInteractive (bool): whether or not the control responds to user input (tapping or sliding)
-
-Behavior:
-- Tap on an image to apply the integral value
-- Slide horizontally over the control to decrease and increase value with StepFrequency
+[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform 
 
 [UWP-Composition-Effects-Sample](https://github.com/XamlBrewer/UWP-Composition-Effects-Sample) An UWP app that illustrates some of the Composition API effects:
 - [Hue Rotation](https://xamlbrewer.wordpress.com/2016/04/08/uwp-composition-effects-hue-rotation/)
@@ -428,15 +418,17 @@ Behavior:
 
 # Controls
 
-[UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Microsoft has assembled a few Controls, many of them from other projects on this list, and other misc helper libs for UWP programming. At the moment, it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their [Developer website](https://developer.microsoft.com/en-us/windows/samples). The [UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this [Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a [Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see exactly what is in the kit. 
+[UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Updated to 1.1 :sun_with_face: Microsoft has assembled about 12 Controls, many of them from other projects on this list, and other misc helper libs for UWP programming. At the moment, it seems like it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their [Developer website](https://developer.microsoft.com/en-us/windows/samples). The [UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this [Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a [Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see exactly what is in the kit. 
 
-There is no mention of any Blend specific features or add-ons but there is an instruction on [how to add the kit to the VS 2015 Designer Toolbox](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit/toolbox).
+There is no mention of any Blend specific features or add-ons but there is an instruction on [how to add the kit to the VS 2015 Designer Toolbox](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit/toolbox). Actually, Blend does a great job of picking up any controls referenced in the project and no installation is needed. Please keep Blend alive and get the add-ons working right for Blend!
 
-For some reason Windows Composition is missing in action for this kit. IMO, both Windows Composition and Win2D are unique Microsoft UWP technologies that can make the platform exciting and are natural candidates for this Microsoft showcase.
+For some reason Windows Composition is partially missing in action for this kit. IMO, both Windows Composition and Win2D are unique Microsoft UWP technologies that can make the platform exciting and are natural candidates for this Microsoft showcase. Part of the problem is that Anniversary (14393) is where Composition starts to light up and show its significance and the Community Toolkit wants to support the previous Windows 10 version as well.
 
-Controls:
-
+#### Controls:
 -    AdaptiveGridView
+-    BladeControl
+-    DropShadowPanel
+-    GridSplitter
 -    HamburgerMenu
 -    HeaderedTextBlock
 -    ImageEx
@@ -445,9 +437,267 @@ Controls:
 -    RangeSelector
 -    RotatorTile
 -    SlideableListItem
+    
+#### Animations
 
+-    Blur
+-    Offset
+-    Fade
+-    Rotate
+-    Scale
+-    FadeHeader
+    
+#### Code Helpers
+
+-    Colors
+-    Connection
+-    Converters
+-    ImageCache
+-    Incremental Loading Collection
+-    Object Storage
+-    StorageFiles
+-    Streams
+-    VisualTreeExtensions
+-    WeakEventListener
+
+
+#### Services
+
+-    Bing
+-    Facebook
+-    LinkedIn
+-    Microsoft Graph
+-    Twitter
+
+#### Notifications
+
+-    Tiles
+-    Toasts
+
+[Windows App Studio Libraries](https://github.com/wasteam/waslibs) This repository contains the source code of the libraries used by Windows App Studio in the generated apps. There are three libraries: utility classes to create XAML applications, all the data sources available in Windows App Studio apps, and XAML controls for Windows 10 apps only.
+
+#### Layout Controls
+
+-    ResponsiveGridView
+-    Pivorama
+-    VariableSizedGrid
+-    Carousel
+-    SliderView
+-    SectionList
+-    SplitterCard
+
+#### Foundation Controls
+
+-    HtmlBlock
+-    VisualBreakpoints
+-    ImageEx
+-    GifControl
+-    VirtualBox
+-    RelativeBox
+-    RelativeBox and VirtualBox
+-    SearchBox
+-    InfiniteScroll
+
+#### Labs Controls
+
+-    ResponsiveGridView
+-    Accordion
+-    SlideShow
+-    ShapeImage
+-    AutoHide
+-    Mosaic
+    
+#### App Services
+
+-    Navigation
+-    AppCache
+
+#### Utilities
+
+-    ErrorNotification
+-    ActionsCommandBar
+-    AnimationExtensions
+-    Converters
+
+#### Data Providers Library
+
+-    Facebook
+-    Twitter
+-    Flickr
+-    YouTube
+-    WordPress
+-    Rss
+-    Bing
+-    LocalStorage
+-    REST API
+
+[WinRTXamlToolkit](https://github.com/xyzzer/WinRTXamlToolkit) A set of controls, extensions and helper classes for Windows Runtime XAML applications.
+
+#### Controls
+
+-    AlternativeFrame, AlternativePage - support asynchronous page transitions and preloading pages so when navigation is initiated - all content might already be loaded. Includes 4 built-in transitions: dissolve, flip, push, wipe. You can add new ones yourself.
+-    AnimatingContainer - a container control that will animate its contents rotating or zooming in/out, eg. to make them feel more alive.
+-    AutoCompleteTextBox - a TextBox with dictionary-based autocompletion support by fex with keyboard support added by yours truly.
+-    CameraCaptureControl - supports displaying camera preview, capturing photos and videos, cycling between existing video capture devices, setting preference to Front/Back panel camera, etc.
+-    CascadingTextBlock - a TextBlock replacement that animates the individual letters in a cascade - fading in while falling down into position, then optionally fading out while falling down from the standard position.
+-    Chart - Silverlight Toolkit's Chart control ported by Mahmoud Moussa (ZeeMoussa on CodePlex) and merged from his Windows 8 Toolkit - Charts and More project. Supports pie charts, bar charts, scatter charts, etc.
+-    CountdownControl - a movie-style control that animates a ring-slice shape while counting down seconds - e.g. to take a picture with a camera after a given number of seconds (supports async/await).
+-    CustomAppBar - a custom implementation of the AppBar that automatically handles the three gestures to switch IsOpen (WinKey+Z, Right-Click, EdgeGesture), adds a CanOpen property, so you can prevent it from opening and opens/hides with a sliding animation when placed anywhere in the app, so you can layer content on top of it. Also features CanDismiss property to force the app bar to stay open in some situations, CanOpenInSnappedView which allows to block the app bar from showing up when the app is in the snapped view.
+-    CustomGridSplitter - a custom implementation of a GridSplitter as a templated control.
+-    DelayedLoadControl - given a content/DataTemplate - loads the contents after a given amount of time - e.g. to allow for staged loading of contents on screen.
+-    ImageButton - a custom Button control that takes one to three images to be used to represent different states of the button (normal/hover/pressed/disabled) as well as ways for the button to render all 4 states with just one or two images.
+-    ImageToggleButton - custom ToggleButton control, that like ImageButton - helps create buttons based on button state images using from 1 to 8 different state images and generating other state images with some simple image processing.
+-    InputDialog - a custom/templated dialog control that takes text input.
+-    ListItemButton - a simple button control with Click event and Command property to be used inside of list controls (the standard button steals pointer capture from the List/Grid~Items so they can't be selected.
+-    NumericUpDown - allows to display and manipulate a number using text input, +/- buttons or Blend-like swipe-manipulations
+-    PieSlice - a pie slice path/shape given StartAngle, EndAngle and Radius.
+-    RingSlice - a pie slice path/shape given StartAngle, EndAngle, Radius and InnerRadius.
+-    TreeView - traditional tree view control ported from Silverlight Toolkit. Has separate touch and mouse themes.
+-    ToolWindow - a window content control that snaps/docks to edges if the screen or parent control.
+-    WatermarkTextBox - TextBox control with a watermark. Set WatermarkText to change the watermark prompt, change WatermarkStyle to change the style of the watermark TextBlock.
+-    WebBrowser - a templated control with a WebView + address bar, title bar, backstack navigation, favicon. work in progress (visual states are a bit messed up), but might be helpful as a starting point
+-    WrapPanel (ported from Silverlight Toolkit) - used for layout of child items in wrapping rows or columns - similar to the way text wraps on a page. Different than VariableSizedWrapGrid since it supports items of varying size and auto-sized rows or columns, but it is not a grid and so it does not explicitly support items spanning multiple cells without the use of negative margins.
+
+#### Controls.Extensions
+
+-    AnimationHelper - two attached properties - Storyboard and IsPlaying. Allows to easily control Storyboard playback from a view model (note limitation - a single storyboard per control).
+-    AppBarExtensions.HideWhenSnapped - allows to make the AppBar automatically hide when the app goes to the snapped view.
+-    ContentControlExtensions.FadeTransitioningContentTemplate - allows to change content template with a fade out/fade in transition.
+-    ControlExtensions.Cursor - enables setting a mouse cursor to show when hovering over a control.
+-    FrameworkElementExtensions.ClipToBounds - automatically updates the Clip property to clip the contents of the element to its bounds.
+-    ImageExtensions.FadeInOnLoaded/.Source - allows to specify an image source such that the image fades in smoothly when the image source is loaded.
+-    ListBoxExtensions./ListViewExtensions
+-        BindableSelection - allows a two-way binding of the SelectedItems collection on the Selector/list controls.
+-        ItemToBringIntoView - allows to control which item should be visible through a view model binding without changing the selected item itself.
+-    ManipulationInertiaStartingRoutedEventArgsExtensions - adds extensions to the arguments of the ManipulationInertiaStarting event that calculate flick ballistics - help determine and control where and when an inertial manipulation will end so you can make your flicks always end where you want them to! It's the basis of the ToolWindow behavior where a flicked window always quickly and smoothly snaps to the side of the screen.
+-    RichTextBlockExtensions
+-        PlainText - attached property that allows to easily single-way-bind plain text to a RichTextBlock (not really that useful other than for visualizing RichTextBlock styles in the sample app provided).
+-        LinkedHtmlFragment - attached property that allows to easily single-way-bind plain text with HTML links (anchor tags) to a RichTextBlock to automatically generate links. Extension methods like SetLinkedHtmlFragment() and AppendLink() are also available.
+-    ScrollViewerExtensions.ScrollToHorizontalOffsetWithAnimation(), .ScrollToVerticalOffsetWithAnimation() - provide a way to scroll a ScrollViewer to specified offset with an animation.
+-    TextBlockExtensions/GetCharacterRect() - an extension method that returns a rectangle that holds a character at a given index in the TextBlock.
+-    TextBoxValidationExtensions - extensions that allow to specify the Format of the requested Text input as well as brushes to use to highlight a TextBox with valid or invalid Text.
+-    ViewboxExtensions.GetChildScaleX()/GetChildScaleY() - return the effective scale of the Viewbox Child.
+-    VisualTreeHelperExtensions - provides a set of extension methods that enumerate visual tree ascendants/descendants of a given control - making it easy to do these operations with LINQ as well as simple ways to list controls of a given type or find the first control of a given type searching up or down the visual tree.
+-    WebViewExtensions - extensions to get currently loaded page address, title, favicon, head tag's inner HTML.
+#### Imaging Extensions
+
+-    BitmapImageLoadExtensions - extensions to simplify loading BitmapImages based on StorageFile or file name
+-    ColorExtensions - Conversions between pixels and pixel buffer types of byte, int and Color
+-    IBufferExtensions - Adds a GetPixels() extension method to the PixelBuffer property of a WriteableBitmap that reads in the buffer to a byte array and exposes an indexer compatible to the one of the Pixels property in Silverlight's WriteableBitmap
+-    WriteableBitmap~ - a set of extension methods for a WriteableBitmap
+-        WriteableBitmapSaveExtensions - support for loading and saving the bitmap to/from files
+-        WriteableBitmapBlitBlockExtensions - support for quick blitting of a full-width section of a bitmap to another bitmap of same width
+-        WriteableBitmapCopyExtensions - support creating a copy of a WriteableBitmap
+-        WriteableBitmapCropExtensions - support for creating a cropped version of a WriteableBitmap
+-        WriteableBitmapDarkenExtension - performs image processing to darken the pixels of the WriteableBitmap.
+-        WriteableBitmapFloodFillExtensions - support for flood-filling a region of a WriteableBitmap - either limited by an outline color or by replacing a given color - usually a color at the starting position or colors similar to it
+-        WriteableBitmapFromBitmapImageExtension - allows to create a WriteableBitmap from a BitmapImage assuming the BitmapImage is installed with the application.
+-        WriteableBitmapGrayscaleExtension - performs image processing to make the pixels of the WriteableBitmap (more) grayscale.
+-        WriteableBitmapLightenExtension - performs image processing to lighten the pixels of the WriteableBitmap.
+
+#### IO helpers
+
+-    ScaledImageFile.Get() - Used to retrieve a StorageFile that uses qualifiers in the naming convention.
+-    StorageFileExtensions.GetSize()/.GetSizeString() - allow to get the size of a file and its string representation (automatically converting from bytes to kB, MB, GB, TB)
+-    StorageFolderExtensions
+        .ContainsFile() - returns a value that states whether a file with specific name exists in the folder
+        .CreateTempFile() - creates a temporary file
+        .CreateTempFileName() - returns an unused, unique file name for a temporary file
+-    StringIOExtensions - allows to easily read or write a string from/to file in a single call
+-    Serialization
+-        JsonSerialization - allows to serialize a properly DataContract-annotated object to a JSON string or file or deserialize an existing one.
+-        XmlSerialization - allows to serialize a properly DataContract- or XmlSerializer-annotated object to a XML string or file or deserialize an existing one.
+
+[MyToolkit](https://github.com/MyToolkit/MyToolkit) MyToolkit for .NET http://mytoolkit.io MyToolkit is a set of .NET libraries containing lots of useful classes for various .NET platforms like UWP/WinRT (Universal Windows Apps), Windows Phone and WPF. The goal is to provide missing or replace existing classes to support the development of high-quality Windows and Windows Phone applications. For example, the library provides often used MVVM infrastructure classes, missing UI controls, IoC classes, additional LINQ extension methods and much more.
+
+- MVVM classes (RelayCommand, ViewModelBase, ObservableObject, Messenger) in portable class library
+- Networking classes: HTTP with GZIP support, WakeOnLan
+- XAML controls and converters, e.g. MtPivot, DataGrid for WinRT/UWP and Hamburger for UWP
+- Improved paging classes for Universal Windows Apps (UWP), Windows Phone and Windows 8 apps
+- Additional collections like ObservableDictionary, MtObservableCollection or ObservableCollectionView 
+
+#### Controls
+ 	AppBarButton.cs 	
+	AppBarToggleButton.cs 	
+	ColorChooser.cs 	
+	DataTemplateSelector.cs 	
+	FadingImage.cs 	
+	GenericDataTemplateSelector.cs 	
+	GridControl.cs 	
+	HorizontalHtmlGenerator.cs 	
+	ImageButton.cs 
+	ItemsWrapGridExtensions.cs 
+	LongListSelector.cs 	
+	LongListView.cs 	
+	MenuListBox.cs 	
+	MtGridView.cs 	
+	MtItemsControl.cs 	
+	MtListBox.cs 	
+	MtListView.cs 	
+	MtPivot.cs 	
+	MtPivotItem.cs 	
+	NavigationGridView.cs 	
+	NavigationList.cs 	
+	NavigationListEventArgs.cs 
+	NavigationListView.cs 	
+	OrientedSize.cs 	
+	PanAndZoomImage.cs 	
+	PanAndZoomViewer.cs 	
+	PivotExtensions.cs 	
+	PrepareContainerForItemEventArgs.cs 	
+	RolloverButton.cs 	
+	ScrollableItemsControl.cs 	
+	SuppressTappedPresenter.cs 	
+	TextButton.cs 	
+	UniformGrid.cs 	
+	WatermarkedTextBox.cs 	
+	WrapPanel.cs
+
+[Composition Pro Toolkit](https://github.com/ratishphilip/CompositionProToolkit) Collection of Helper classes and controls (using Win2d) for Windows.UI.Composition - CompositionProToolkit is a collection of helper classes for Windows.UI.Composition. It also contains controls which can be used in UWP applications. It has dependency on the Win2D and the CompositionExpressionToolkit libraries.
+
+#### Controls:
+
+- Fluid Progress Ring
+- Fluid Wrap Panel
+- Fluid Banner
+- Image Frame
+
+[Continuity](https://github.com/JustinXinLiu/Continuity) A project that aims to provide some cool animations, transitions and controls, built on top of the new Windows Composition API.
+
+#### Controls:
+- Tab
+
+
+[CarouselView](https://github.com/pengzhxyz/CarouselView) An UWP carousel control supporting looping and based on composition api
+-    It supports infinite looping scrolling
+-    AutoSwitch supporting
+-    It could show 3 pictures at the same time, rather than filpview which only shows one picture
+-    Responsable to the container size
+-    Touch or mouse wheel
+-    Thanks to the Composition API!
+
+[CompositionGridView](https://github.com/pnp0a03/CompositionGridView) no desc.
+
+[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
+
+[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform XAML control.Requires Visual Studio 2015 update 1, and Windows 10 10586 SDK. Contains a copy of Microsoft.UI.Composition.Toolkit that is maintained here: https://github.com/Microsoft/composition. A blog post explaining the code is here: https://xamlbrewer.wordpress.com/2016/01/04/using-the-composition-api-in-uwp-apps/.
+
+[UWP-Composition-Rating-Control](https://github.com/XamlBrewer/UWP-Composition-Rating-Control) A UWP Rating Control drawn by the Composition API. There's a blog post explaining the code right here: https://xamlbrewer.wordpress.com/2016/07/11/building-a-uwp-rating-control-using-xaml-and-the-composition-api/ - Comes with the following dependency properties:
+-    Maximum (int): number of stars, maximum score
+-    StepFrequency (double): rounding interval, a percentage (e.g. 0.25)
+-    Value (double): current value (from 0 to Maximum)
+-    ItemHeight (int): height (and width) of each image in device independent pixels
+-    ImagePadding (int): pixels between images
+-   FilledImage (uri): path to the filled image
+-    EmptyImage (uri): path to the empty image
+-    IsInteractive (bool): whether or not the control responds to user input (tapping or sliding)
+Behavior:
+- Tap on an image to apply the integral value
+- Slide horizontally over the control to decrease and increase value with StepFrequency
 
 [UniversalMarkdown](https://github.com/QuinnDamerell/UniversalMarkdown) A markdown parsing and rendering library for C# and Windows Universal Apps http://baconit.quinndamerell.com/ Universal Markdown is your one-stop-shop for all of your markdown needs in C#. Universal markdown was built for the open source reddit app Baconit, but hopefully it will be adopted by others and improved by the community. 
+
+[IpatovUWP](https://github.com/Opiumtm/IpatovUWP) UWP common use helper libraries such as util code for DataBinding. New, is a Markup rendering engine based on Direct2D instead of XAML tree manipulations. [Nuget: Ipatov.MarkupRender](https://www.nuget.org/packages/Ipatov.MarkupRender/) First public release is very simplistic and not feature rich, but most important feature of this library is very high performance.
 
 [WinRT-StandardDateFormatPicker](https://github.com/ignacy130/WinRT-StandardDateFormatPicker) Simple control based on ComboBoxes to pick date in common in Europe and most of the world format dd-mm-yyyy. Wiki: https://github.com/ignacy130/WinRT-StandardDateFormatPicker/wiki
 
@@ -469,7 +719,7 @@ Controls:
 
 [UWP-UniformGrid-Control](https://github.com/rickapps/UWP-UniformGrid-Control) The missing UniformGrid control from WPF ported to UWP
 
-[Windows App Studio Libraries](https://github.com/wasteam/waslibs) This repository contains the source code of the libraries used by Windows App Studio in the generated apps. There are three libraries: utility classes to create XAML applications, all the data sources available in Windows App Studio apps, and XAML controls for Windows 10 apps only.
+
 
 [ExpanderUWP](https://github.com/deanchalk/ExpanderUWP) Expander Control for Microsoft UWP
 
@@ -479,7 +729,7 @@ Controls:
 
 [comet](https://github.com/nmetulev/comet) Universal Windows Platform (UWP) toolkit library. Contains controls for creating great user experiences for Universal Windows Applications
 
-[WinRTXamlToolkit](https://github.com/xyzzer/WinRTXamlToolkit) A set of controls, extensions and helper classes for Windows Runtime XAML applications.
+
 
 [Naylah.Toolkit.UWP](https://github.com/NaylahProject/Naylah.Toolkit.UWP) Naylah SDK for Universal Windows Plataform http://naylahproject.github.io/Naylah.UWP/ Contain useful libraries, controls, helpers, architecture, etc. The intent is create a community for developers focusing in deliver better-beatiful apps. To create next generation of apps.
 
@@ -521,7 +771,7 @@ Controls:
 
 Libraries that may support UWP specific features.
 
-[IpatovUWP](https://github.com/Opiumtm/IpatovUWP) UWP common use helper libraries such as util code for DataBinding. New, is a Markup rendering engine based on Direct2D instead of XAML tree manipulations. [Nuget: Ipatov.MarkupRender](https://www.nuget.org/packages/Ipatov.MarkupRender/) First public release is very simplistic and not feature rich, but most important feature of this library is very high performance.
+
 
 
 [Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the [Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
@@ -544,7 +794,7 @@ Libraries that may support UWP specific features.
 
 [Kulman.UWP](https://github.com/igorkulman/Kulman.UWP) Collection of utilities and services for UWP apps
 
-[MyToolkit](https://github.com/MyToolkit/MyToolkit) MyToolkit for .NET http://mytoolkit.io MyToolkit is a set of .NET libraries containing lots of useful classes for various .NET platforms like UWP/WinRT (Universal Windows Apps), Windows Phone and WPF. The goal is to provide missing or replace existing classes to support the development of high-quality Windows and Windows Phone applications. For example, the library provides often used MVVM infrastructure classes, missing UI controls, IoC classes, additional LINQ extension methods and much more.
+
 
 [Cimbalino-Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) Cimbalino Toolkit http://cimbalino.org Cimbalino Toolkit is a set of useful and powerful tools that will help you build your Windows Platform applications.
 
