@@ -231,6 +231,8 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [ESENT](https://msdn.microsoft.com/EN-US/library/gg269181%28v=exchg.10%29.aspx) Extensible Storage Engine is built into and is available for use on every Windows computer and has been an approved DLL for Windows Store since Windows 8.0. Updates to the database are implemented with a transaction in order to ensure secure operations. ESE enables simultaneous access to multiple databases, including transaction-log file databases that can be used for system recovery. ESE is scalable to large or small applications. [ESENT Managed Interop](https://managedesent.codeplex.com/) it is not clear if the .NET wrapper is UWP compatible."It is clear. ESENT Managed Interop is compatible with UWP. Not all nuget package are, but core Interop package on nuget is compatible with UWP, I tested it myself and it work." Thanks to [Opiumtm](https://github.com/Opiumtm) for testing that.
 
+### DBreeze
+
 [DBreeze](https://github.com/hhblaze/DBreeze) - This has a native UWP DLL and is an *embeddable Database solution for UWP Apps* - http://dbreeze.codeplex.com/ - Professional, open-source, NoSql (embedded Key / Value storage), transactional, ACID-compliant, multi-threaded, object database management system for
 .NET 3.5> / XAMARIN MONO / .NET Core / UWP (Universal Windows Platform). Written in C# .
 
@@ -242,7 +244,7 @@ Note to add some actual Tools that might be handy for UWP development.
 
 [MarcelloDB](https://github.com/markmeeus/MarcelloDB) .net/mono/xamarin/winrt in-process object database. MarcelloDB is a mobile NoSql database. It is very light-weight with minimal memory footprint. MarcelloDB saves plain C# objects, including child objects, lists and collections. Not having to map your objects to the relational model can save you hundreds of lines of code. MarcelloDB is a pure C# implementation, so there is no need to package other binaries.
 
-### DBreeze
+
 
 
 
@@ -886,6 +888,14 @@ Libraries that are compatible with UWP but don't provide UWP specific feature su
 [FFMPEGHelper](https://github.com/krishnan-unni/FFMPEGHelper) Windows 10 Universal WinRT component for FFMPEG library
 
 [Universal.WebP](https://github.com/FrayxRulez/Universal.WebP) This repository contains a Windows Runtime Component that wraps up libwebp and allows to decode static and animated WEBP images.
+
+[BreadPlayer](https://github.com/theweavrs/BreadPlayer) Bread Player is a music player with tons of features coded in CSharp/.NET Core for the Universal Windows 10 Platform (UWP). This project is being developed to acknowledge and rectify the scarcity of Music players in Windows 10 Store and also to provide flawless and feature-rich Music player to the end-user. It is still in a very experimental stage so much so that not even the UI is ready at the moment. [Roadmap](https://github.com/theweavrs/BreadPlayer/wiki/Roadmap)
+
+[Microsoft Media Platform's Player Framework](http://playerframework.codeplex.com/) An open source, robust video player framework for Windows 10, Windows 8, HTML5, Silverlight, Windows Phone and other application platforms. 
+
+![](http://download-codeplex.sec.s-msft.com/Download?ProjectName=playerframework&DownloadId=527525)
+
+Video players can be incredibly difficult to build. When developers require support for adaptive streaming, closed captioning, advertising standards integration, DVR-style playback control, and other advanced features, the complexity of their video player grows exponentially. Over the last few years at Microsoft we have helped build some of the most advanced video applications on the Web including the browser-based experience for the Beijing and Vancouver Olympics with NBC Sports, the last three seasons of NBC's Sunday Night Football (including the 2012 Super Bowl), the CBS March Madness college basketball tournament, Wimbledon, and a number of other major, live events with millions of simultaneous users. As a part of those projects we have developed one of the most powerful video players on the planet. And we've decided to share it with everyone, for free.  The Microsoft Media Platform's Player Framework is an open source video player that we continue to develop and evolve. It is available for Silverlight, HTML5, Windows Phone, Xbox, and now, in our latest release, Windows 10 UWP applications. And it's fully open source!
 
 
 # Graphics 2D
