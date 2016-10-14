@@ -730,6 +730,7 @@ Behavior:
 [UWP-master](https://github.com/zmtzawqlp/UWP-master)Some controls such as FlexGrid, DataGrid, Charts etc.
 
 [Radial Menu](https://github.com/CatalystCode/radial-menu) A Radial Menu for Windows UWP Applications, as made popular by the first versions of the modern OneNote App for Windows. Create radial menus floating op top of your application. The control supports variable numbers of buttons, toggle & radio buttons, a selector for long lists, and a fancy metered menu for intuitive selection of numbers.
+![](https://github.com/CatalystCode/radial-menu/raw/CaseStudyDemo/gif.gif)
 
 [UWP-Radial-Gauge-Sample](https://github.com/XamlBrewer/UWP-Radial-Gauge-Sample) Demonstrates using the WinRT XAML Toolkit Radial Gauge on the Universal Windows Platform
 
@@ -741,7 +742,7 @@ Behavior:
 
 [UWP-UniformGrid-Control](https://github.com/rickapps/UWP-UniformGrid-Control) The missing UniformGrid control from WPF ported to UWP
 
-
+[ButterSwitch](https://github.com/validvoid/ButterSwitch) A butter-like style toggleswitch control for UWP apps. Including a style for built-in toggleswitch control and a standalone toggleswtich templated custom control.
 
 [ExpanderUWP](https://github.com/deanchalk/ExpanderUWP) Expander Control for Microsoft UWP
 
@@ -1054,8 +1055,11 @@ This is an important category so I will really appreciate suggestions by anyone 
 [Kliva](https://github.com/AppCreativity/Kliva) "Thanks to Kliva, you'll now be able to get a detailed overview of all your sport endevaours and the data that goes with it." - Featured at Build 2016 in session:  ["Creating Beautiful UX in a Real-World App with Visuals, Animations and Effects"](https://channel9.msdn.com/Events/Build/2016/B818) with this branch of the code: https://github.com/AppCreativity/Kliva/tree/alcatraz
 
 [Baconit](https://github.com/QuinnDamerell/Baconit) A beatiful, powerful, reddit client for Windows 10. https://www.reddit.com/r/BaconitDev/ The highest rated reddit client for Windows Phone has been rewritten from the ground up and is now available for all Windows 10 devices. Now with a dynamic new UI, faster speeds, and features you have been asking for. Welcome to the new Baconit. We know you’re going to love it.
+![](https://github.com/QuinnDamerell/Baconit/raw/develop/Media/GitHubReadme/Desktop1.png)
 
-[MyerSplash](https://github.com/JuniperPhoton/MyerSplash) Claims to be "the best looking Wallpaper App" [here](http://juniperphoton.net/myersplash/) so let me know if you agree. An UWP app that allows you to browse and download high-quality wallpaper from Unsplash.com. To compile the project, please include [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) which is the lib I am developing to the solution. 
+[MyerSplash](https://github.com/JuniperPhoton/MyerSplash) Claims to be "the best looking Wallpaper App" [here](http://juniperphoton.net/myersplash/) so let me know if you agree. 
+![](https://store-images.s-microsoft.com/image/apps.22105.13510798887498695.c9390f57-2d6e-4e7b-9320-6e60f771f599.50c968b1-4728-4616-93b0-4242aba00e44?w=1399&h=787&q=60)
+An UWP app that allows you to browse and download high-quality wallpaper from Unsplash.com. To compile the project, please include [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) which is the lib I am developing to the solution. 
 
 # Samples That Don't Know They are Samples
 
@@ -1126,6 +1130,8 @@ myFeed is an RSS reader for UWP platform written in C#. It can grab news from we
 [Tramline-5](https://github.com/betrakiss/Tramline-5) Universal Windows app for the Public Transport in Sofia (Bulgaria).
 
 [OwncloudUniversal](https://github.com/pestotoast/OwncloudUniversal) Owncloud-Client for Windows Phones (Win10Mobile) or PCs
+
+[DoubanGroup.UWP](https://github.com/scheshan/DoubanGroup.UWP) no desc - 30 stars
 
 
 # Blogs and Websites convert to Apps
