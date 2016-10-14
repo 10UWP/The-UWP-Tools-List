@@ -1057,9 +1057,7 @@ This is an important category so I will really appreciate suggestions by anyone 
 [Baconit](https://github.com/QuinnDamerell/Baconit) A beatiful, powerful, reddit client for Windows 10. https://www.reddit.com/r/BaconitDev/ The highest rated reddit client for Windows Phone has been rewritten from the ground up and is now available for all Windows 10 devices. Now with a dynamic new UI, faster speeds, and features you have been asking for. Welcome to the new Baconit. We know you’re going to love it.
 ![](https://github.com/QuinnDamerell/Baconit/raw/develop/Media/GitHubReadme/Desktop1.png)
 
-[MyerSplash](https://github.com/JuniperPhoton/MyerSplash) Claims to be "the best looking Wallpaper App" [here](http://juniperphoton.net/myersplash/) so let me know if you agree. 
-![](https://store-images.s-microsoft.com/image/apps.22105.13510798887498695.c9390f57-2d6e-4e7b-9320-6e60f771f599.50c968b1-4728-4616-93b0-4242aba00e44?w=1399&h=787&q=60)
-An UWP app that allows you to browse and download high-quality wallpaper from Unsplash.com. To compile the project, please include [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) which is the lib I am developing to the solution. 
+[MyerSplash](https://github.com/JuniperPhoton/MyerSplash) Claims to be "the best looking Wallpaper App" [here](http://juniperphoton.net/myersplash/) so let me know if you agree. An UWP app that allows you to browse and download high-quality wallpaper from Unsplash.com. To compile the project, please include [JP.Utils.UWP](https://github.com/JuniperPhoton/JP.Utils.UWP) which is the lib I am developing to the solution. 
 
 # Samples That Don't Know They are Samples
 
