@@ -860,6 +860,16 @@ I have added the capability to capture video for UWP apps, which was the major h
 
 [Aura.Net](https://github.com/Lukasss93/Aura.Net) Utilities Class Library for Windows Phone 8.1 RT & UWP
 
+
+# Blogs and Websites convert to Apps
+
+[wordpress.uwp.starter.kit](https://github.com/TonyChampion/wordpress.uwp.starter.kit) This is a starter kit for creating a UWP app that connects to your WordPress blog. In order to get this up and running, edit the App.xaml file and include a valid blog url, username, and password.
+
+
+[Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog - Blog website: http://noodlesblog.azurewebsites.net
+
+
+
 # Libs to access an API
 
 [DeviantartApi Library](https://github.com/Mr1Penguin/DeviantartApi) DeviantartApi Library in C# for UWP, Win8.1, WinPhone8.1,. NET 4.5+, ASP.NET Core 1.0
@@ -1130,11 +1140,6 @@ myFeed is an RSS reader for UWP platform written in C#. It can grab news from we
 [OwncloudUniversal](https://github.com/pestotoast/OwncloudUniversal) Owncloud-Client for Windows Phones (Win10Mobile) or PCs
 
 [DoubanGroup.UWP](https://github.com/scheshan/DoubanGroup.UWP) no desc - 30 stars
-
-
-# Blogs and Websites convert to Apps
-
-[Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog - Blog website: http://noodlesblog.azurewebsites.net
 
 
 
