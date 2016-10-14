@@ -1049,8 +1049,6 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 [UWPCMS](https://github.com/sunilmusinada/UWPCMS) no description
 
-[Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog
-
 
 [FaceBattleUWP](https://github.com/JuniperPhoton/FaceBattleUWP) FaceBattle app for Universal Windows Platfrom.
 
@@ -1068,7 +1066,7 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 [Unigram](https://github.com/ikarago/Unigram) Unigram – An Universal take on Telegram. Made by the community, for the community.   Windows 10 (Mobile) introduced with the Universal Windows Platform a whole list of features to make your (chatting) life easier. However, the current official Telegram-app has no signs of releasing an UWP-version with these capabilities soon. That’s why we decided to build our own.
 
-[NASA App](https://github.com/nikitakonan/NASAapp) UWP Nasa applicatio]()
+[NASA App](https://github.com/nikitakonan/NASAapp) UWP Nasa application
 
 [Elementary](https://github.com/ultramega/elementary-uwp) Elementary is a simple Periodic Table and element reference application for The Universal Windows Platform. Videos provided by Periodic Videos (http://www.periodicvideos.com/)
 -    Zoomable Periodic Table of the Elements
@@ -1080,6 +1078,34 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 
 [WA082016](https://github.com/evnik/WA082016) Playing with Windows Universal apps <Award for Most Descriptive App Name> :)
 
+[ENRZ.UWP](https://github.com/miao17game/ENRZ.UWP) App For ENRZ by Wallace
+
+[DQD-UWP](https://github.com/miao17game/DQD-UWP) Dongqiudi UWP by Pao
+
+[HomeBudgetViewer](https://github.com/lsielewicz/HomeBudgetViewer) Simple UWP app that allows to manage users expenses and icomes.
+
+[MathExpression](https://github.com/OpportunityLiu/MathExpression) Parse math expressions, generate lambda expressions and compiled functions. For UWP.
+
+[MatrixJar](https://github.com/Worldbeater/MatrixJar) Matrix calculator for Universal Windows 10 platform! https://www.microsoft.com/en-us/store/p/matrixjar/9nblggh530bd 
+![](https://camo.githubusercontent.com/6d35073df2d56ab8b598496c702aff686648b47c/68747470733a2f2f776f726c646265617465722e6769746875622e696f2f6d6f636b7570732f4d61747269784a61722e6a7067)
+MatrixJar is a matrix calculator for Universal Windows 10 platform! It can count matrices sum, multiplication, can transpose or inverse matrices or get their determinants.
+
+
+[MALClient](https://github.com/Drutol/MALClient) Small client app for Myanimelist.net and Hummingbird.me - Windows 10 UWP.
+
+[myFeed](https://github.com/Worldbeater/myFeed)  RSS reader for Universal Windows 10 platform! https://www.microsoft.com/en-us/store/apps/myfeed/9nblggh4nw02
+![](https://camo.githubusercontent.com/4245d02dbdaadf86ac7f7c526573aa1b7fc84cd0/68747470733a2f2f776f726c646265617465722e6769746875622e696f2f6d6f636b7570732f6d79466565642e6a7067)
+myFeed is an RSS reader for UWP platform written in C#. It can grab news from websites and save them on your device. 
+
+[Tramline-5](https://github.com/betrakiss/Tramline-5) Universal Windows app for the Public Transport in Sofia (Bulgaria).
+
+[OwncloudUniversal](https://github.com/pestotoast/OwncloudUniversal) Owncloud-Client for Windows Phones (Win10Mobile) or PCs
+
+
+# Blogs and Websites convert to Apps
+
+[Noodles-Blog-UWP](https://github.com/miao17game/Noodles-Blog-UWP) a UWP app of my Blog - Blog website: http://noodlesblog.azurewebsites.net
+
 
 
 # Games
@@ -1087,6 +1113,12 @@ I will try to list anything I come across. (Just in case is isn't obvious, there
 [Orchi's Isle, The Adventure Begins](https://github.com/orchidwarestudios/orchis-isle-uwp) Whimsical, exciting adventure game for Windows 10 devices. This project creates a 2D video game for the Universal Windows Platform (UWP). It can be played on a Windows 10 PC/Tablet. The code is written using DirectX 11, C++, and XAML. The code is currently compatible with Windows 10 desktop, tablet devices, and the XBox One console. It will not be optimized for Windows 10 phone devices.
 
 [DotaTournamentHub](https://github.com/davidmikh/DotaTournamentHub) A UWP app that displays information about Dota 2 Tournaments & Leagues
+
+[ToddlerBox](https://github.com/ibebbs/ToddlerBox) A UWP app for the XBox One providing visual and tactile entertainment for babies and toddlers.
+
+
+
+
 
 
 # End of the List
