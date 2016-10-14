@@ -418,6 +418,10 @@ We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 151
 
 [Okra App Framework](https://github.com/OkraFramework/Okra.Core) The Okra App Framework is designed to support the development of .Net Windows Store applications, in particular those following the MVVM pattern. http://okraframework.github.io -  [Okra.Platform.UniversalWindows](https://github.com/OkraFramework/Okra.Platform.UniversalWindows) provides platform specific code for developing Okra App Framework based UWP applications
 
+[Crystal](https://github.com/Amrykid/Crystal) My secret sauce: A UWP Application development framework. Batteries required! Crystal is a UWP application development framework I use for my own projects. It essentially a way for me to get started quickly and not have to get my hands dirty. Batteries are not included. Use at your own risk!
+
+[Framework](https://github.com/RavinduL/Framework) A simple framework for developing UWP apps. [Docs](https://github.com/RavinduL/Framework/wiki)
+
 # Controls
 
 [UWPCommunityToolkit](https://github.com/Microsoft/UWPCommunityToolkit) Updated to 1.1 :sun_with_face: Microsoft has assembled about 12 Controls, many of them from other projects on this list, and other misc helper libs for UWP programming. At the moment, it seems like it is far less ambitious in scope than their Template 10 project, yet for some reason they have heavily promoted this Community Toolkit both with press releases and featuring on their [Developer website](https://developer.microsoft.com/en-us/windows/samples). The [UWPCommunityToolkit-docs](https://github.com/Microsoft/UWPCommunityToolkit-docs) is a separate GitHub project which feeds this [Microsoft.com Windows Dev site](https://developer.microsoft.com/en-us/windows/uwp-community-toolkit). There is a [Sample App in Windows Store](https://www.microsoft.com/store/apps/9nblggh4tlcq) that allows you to see exactly what is in the kit. 
@@ -619,41 +623,41 @@ For some reason Windows Composition is partially missing in action for this kit.
 - Additional collections like ObservableDictionary, MtObservableCollection or ObservableCollectionView 
 
 #### Controls
- 	AppBarButton.cs 	
-	AppBarToggleButton.cs 	
-	ColorChooser.cs 	
-	DataTemplateSelector.cs 	
-	FadingImage.cs 	
-	GenericDataTemplateSelector.cs 	
-	GridControl.cs 	
-	HorizontalHtmlGenerator.cs 	
-	ImageButton.cs 
-	ItemsWrapGridExtensions.cs 
-	LongListSelector.cs 	
-	LongListView.cs 	
-	MenuListBox.cs 	
-	MtGridView.cs 	
-	MtItemsControl.cs 	
-	MtListBox.cs 	
-	MtListView.cs 	
-	MtPivot.cs 	
-	MtPivotItem.cs 	
-	NavigationGridView.cs 	
-	NavigationList.cs 	
-	NavigationListEventArgs.cs 
-	NavigationListView.cs 	
-	OrientedSize.cs 	
-	PanAndZoomImage.cs 	
-	PanAndZoomViewer.cs 	
-	PivotExtensions.cs 	
-	PrepareContainerForItemEventArgs.cs 	
-	RolloverButton.cs 	
-	ScrollableItemsControl.cs 	
-	SuppressTappedPresenter.cs 	
-	TextButton.cs 	
-	UniformGrid.cs 	
-	WatermarkedTextBox.cs 	
-	WrapPanel.cs
+- 	AppBarButton.cs 	
+-	AppBarToggleButton.cs 	
+-	ColorChooser.cs 	
+-	DataTemplateSelector.cs 	
+-	FadingImage.cs 	
+-	GenericDataTemplateSelector.cs 	
+-	GridControl.cs 	
+-	HorizontalHtmlGenerator.cs 	
+-	ImageButton.cs 
+-	ItemsWrapGridExtensions.cs 
+-	LongListSelector.cs 	
+-	LongListView.cs 	
+-	MenuListBox.cs 	
+-	MtGridView.cs 	
+-	MtItemsControl.cs 	
+-	MtListBox.cs 	
+-	MtListView.cs 	
+-	MtPivot.cs 	
+-	MtPivotItem.cs 	
+-	NavigationGridView.cs 	
+-	NavigationList.cs 	
+-	NavigationListEventArgs.cs 
+-	NavigationListView.cs 	
+-	OrientedSize.cs 	
+-	PanAndZoomImage.cs 	
+-	PanAndZoomViewer.cs 	
+-	PivotExtensions.cs 	
+-	PrepareContainerForItemEventArgs.cs 	
+-	RolloverButton.cs 	
+-	ScrollableItemsControl.cs 	
+-	SuppressTappedPresenter.cs 	
+-	TextButton.cs 	
+-	UniformGrid.cs 	
+-	WatermarkedTextBox.cs 	
+-	WrapPanel.cs
 
 [Composition Pro Toolkit](https://github.com/ratishphilip/CompositionProToolkit) Collection of Helper classes and controls (using Win2d) for Windows.UI.Composition - CompositionProToolkit is a collection of helper classes for Windows.UI.Composition. It also contains controls which can be used in UWP applications. It has dependency on the Win2D and the CompositionExpressionToolkit libraries.
 
@@ -678,12 +682,6 @@ For some reason Windows Composition is partially missing in action for this kit.
 -    Touch or mouse wheel
 -    Thanks to the Composition API!
 
-[CompositionGridView](https://github.com/pnp0a03/CompositionGridView) no desc.
-
-[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
-
-[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform XAML control.Requires Visual Studio 2015 update 1, and Windows 10 10586 SDK. Contains a copy of Microsoft.UI.Composition.Toolkit that is maintained here: https://github.com/Microsoft/composition. A blog post explaining the code is here: https://xamlbrewer.wordpress.com/2016/01/04/using-the-composition-api-in-uwp-apps/.
-
 [UWP-Composition-Rating-Control](https://github.com/XamlBrewer/UWP-Composition-Rating-Control) A UWP Rating Control drawn by the Composition API. There's a blog post explaining the code right here: https://xamlbrewer.wordpress.com/2016/07/11/building-a-uwp-rating-control-using-xaml-and-the-composition-api/ - Comes with the following dependency properties:
 -    Maximum (int): number of stars, maximum score
 -    StepFrequency (double): rounding interval, a percentage (e.g. 0.25)
@@ -696,6 +694,28 @@ For some reason Windows Composition is partially missing in action for this kit.
 Behavior:
 - Tap on an image to apply the integral value
 - Slide horizontally over the control to decrease and increase value with StepFrequency
+
+[Marduk.Controls](https://github.com/ProjectMarduk/Marduk.Controls) Controls library for Universal Windows.([Nuget](https://www.nuget.org/packages/Marduk.Controls/))
+
+- PhotowallView A stand alone photo wall layout control with virtualizing capability. 
+- WaterfallFlowView A stand alone waterfall flow layout controls with virtualizing capability. 
+
+![](https://cloud.githubusercontent.com/assets/9367842/17103395/aeb31994-52b0-11e6-85a0-810188084535.gif)
+
+- UI Virtualizing Both of PhotowallView and WaterfallFlowView support UI virtualizing which enables the system to render only the visible items inside the viewport.
+- Incremental Loading Just make your ItemSource inherits form Windows.UI.Xaml.Data.ISupportIncrementalLoading then the control would do the rest.
+- Item Tapped Event Hooking up to the ItemTapped event with PhotowallView or WaterfallFlowView to get notified when an item was tapped.
+- Easy Styling/ Comprehensive Visual States/ Multiselection Easily styling the appearence of PhotowallView and WaterfallFlowView with the preset visual states such as "IsSelected" and "NotSelected" etc.
+- High Performance for Random Insert, Remove and Change  Freely random insert, remove or change an item, even it's been virtualized.
+- High Performance for Resizing You can use Marduk.Controls.OrientedVirtualizingPanel.Resizer to optimize resize behavior
+
+[CompositionGridView](https://github.com/pnp0a03/CompositionGridView) no desc.
+
+[UWP-Composition-Radial-Gauge](https://github.com/XamlBrewer/UWP-Composition-Radial-Gauge) A XAML Radial Gauge Custom Control for UWP that is partially drawn by the Composition API. It uses the release version of Composition API, so this requires Requires Visual Studio 2015 update 1 and Windows 10 10586 SDK on your side. A blog post that explains the code is right here: https://xamlbrewer.wordpress.com/2016/01/23/building-a-custom-uwp-control-with-xaml-and-the-composition-api/.
+
+[UWP-Composition-API-Clock](https://github.com/XamlBrewer/UWP-Composition-API-Clock) Demonstrates using the Composition API in a Universal Windows Platform XAML control.Requires Visual Studio 2015 update 1, and Windows 10 10586 SDK. Contains a copy of Microsoft.UI.Composition.Toolkit that is maintained here: https://github.com/Microsoft/composition. A blog post explaining the code is here: https://xamlbrewer.wordpress.com/2016/01/04/using-the-composition-api-in-uwp-apps/.
+
+
 
 [UniversalMarkdown](https://github.com/QuinnDamerell/UniversalMarkdown) A markdown parsing and rendering library for C# and Windows Universal Apps http://baconit.quinndamerell.com/ Universal Markdown is your one-stop-shop for all of your markdown needs in C#. Universal markdown was built for the open source reddit app Baconit, but hopefully it will be adopted by others and improved by the community. 
 
@@ -729,7 +749,7 @@ Behavior:
 
 [WinUX-UWP-Toolkit](https://github.com/jamesmcroft/WinUX-UWP-Toolkit) A collection of core XAML controls and extensions to use in your personal universal Windows apps http://jamescroft.co.uk/blog/uwp/introducing-croft-core-for-universal-windows-apps/
 
-[comet](https://github.com/nmetulev/comet) Universal Windows Platform (UWP) toolkit library. Contains controls for creating great user experiences for Universal Windows Applications
+[comet](https://github.com/nmetulev/comet) Note: this project formed the starter seed of the Microsoft Community Toolkit (see above) so AFAIK it is no longer maintained. Previously: Universal Windows Platform (UWP) toolkit library. Contains controls for creating great user experiences for Universal Windows Applications
 
 
 
@@ -754,6 +774,10 @@ Behavior:
 
 [SwipeListView](https://github.com/FrayxRulez/SwipeListView) A ListView with swipe handling like the one in new Outlook Mail app for Windows 10.
 
+[UWPBox](https://github.com/ruffin--/UWPBox) Fixing TextBox wackiness for UWP applications
+
+[LocalNotifications](https://github.com/RavinduL/LocalNotifications) Local (in-app) notifications for UWP applications.
+![](https://github.com/RavinduL/LocalNotifications/raw/master/images/demo.gif)
 
 # UI
 [ReactiveUI](https://github.com/reactiveui/ReactiveUI) A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP). http://www.reactiveui.net
@@ -773,7 +797,9 @@ Behavior:
 
 Libraries that may support UWP specific features.
 
+[UWPHelper](https://github.com/bramborman/UWPHelper) A set of useful UWP tools such as converters, triggers and helpers.
 
+[Wallace.UWP.Helpers](https://github.com/miao17game/Wallace.UWP.Helpers)
 
 
 [Groves](https://github.com/tomzorz/Groves) A UWP library by the author of the [Awesome UWP resources list](https://github.com/tomzorz/awesome-uwp) 
